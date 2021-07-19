@@ -38,7 +38,7 @@ ul {
   line-height: 100%;
   list-style: none;
   padding-left: 5%;
-  margin-bottom: 5px
+  margin-bottom: 20px
 }
 
 li {
@@ -51,8 +51,14 @@ li::before {
   font-family: 'Mulish', sans-serif;
   font-weight: bold; /* If you want it to be bold */
   padding-left: 5%;
-  margin-bottom: 5px
+  margin-bottom: 20px
 }
+
+li span
+    {
+        position:relative;
+        left:5px;
+    }
 
 /* unvisited link */
 a:link {
@@ -66,7 +72,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: red;
 }
 
 /* selected link */
