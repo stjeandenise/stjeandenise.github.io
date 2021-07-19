@@ -54,12 +54,12 @@ a:active {
 
 /*socials */
 .fa {
+  border: none;
   padding: 20px;
-  font-size: 30px;
+  color: silver;
   width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+  padding-top: 3px;
+  padding-bottom: 3px;
   margin-left: 5%;
 }
 
