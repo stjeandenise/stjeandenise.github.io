@@ -2,8 +2,19 @@ h1 {
   font-weight: normal;
   color: black;
   font-family: 'Mulish', sans-serif;
-  font-size: 65px;  
+  font-size: 50px;  
   line-height: 200%;
   margin-left: 5%; 
-  text-align:left;
+  text-align: left;
+}
+
+
+h2 {
+  color: black;
+  font-family: 'Mulish', sans-serif;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 40px;
+  margin-left: 5%;
+  text-align: left;
 }
