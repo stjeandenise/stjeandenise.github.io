@@ -19,6 +19,17 @@ h2 {
   text-align: left;
 }
 
+
+h2 {
+  font-weight: lighter;
+  color: black;
+  font-family: 'Mulish', sans-serif;
+  font-size: 25px;
+  line-height: 100%;
+  margin-left: 5%;
+  text-align: left;
+}
+
 ul {
   list-style: none; /* Remove default bullets */
 }
