@@ -36,7 +36,6 @@ ul {
   font-family: 'Mulish', sans-serif;
   font-size: 25px;
   line-height: 100%;
-  margin-left: 5%;
   text-align: left;
 }
 
@@ -49,6 +48,4 @@ li::before {
   color: blue; /* Change the color */
   font-family: 'Mulish', sans-serif;
   font-weight: bold; /* If you want it to be bold */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: 5%; /* Also needed for space (tweak if needed) */
 }
