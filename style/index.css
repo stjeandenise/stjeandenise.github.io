@@ -53,3 +53,5 @@ li::before {
   padding-left: 0;
   margin-left: 5%;
 }
+
+ul li { padding: 5px 0px; }
