@@ -49,4 +49,5 @@ li::before {
   color: blue; /* Change the color */
   font-family: 'Mulish', sans-serif;
   font-weight: bold; /* If you want it to be bold */
+  padding-left: 0;
 }
