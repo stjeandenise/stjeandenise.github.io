@@ -67,24 +67,3 @@ a:active {
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
-/* Linkedin */
-.fa-linkedin {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-/* Instagram */
-.fa-instagram {
-  background: #55ACEE;
-  color: white;
-}
-
-
