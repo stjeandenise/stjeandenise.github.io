@@ -54,19 +54,9 @@ a:active {
 
 
 /*socials */
-.fa
-{ 
-  text-align:center;
- border:none;
- background-color:#ffffff;
- color:#1D233D;
- width:30px;
- padding-top:3px;
- padding-bottom:3px;
- margin-left: 5%;
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
+.socialMediaLinks a {
+    font-size: 26px;
+    margin: 0 10px 0 0;
+    color: #000000;
+    text-decoration: none;
 }
-
