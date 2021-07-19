@@ -30,35 +30,6 @@ h3 {
   text-align: left;
 }
 
-ul {
-  font-weight: lighter;
-  color: black;
-  font-family: 'Mulish', sans-serif;
-  font-size: 25px;
-  line-height: 100%;
-  list-style: none;
-  padding-left: 5%;
-  margin-bottom: 20px
-}
-
-li {
-  list-style: none; /* Remove default bullets */
-}
-
-li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: blue; /* Change the color */
-  font-family: 'Mulish', sans-serif;
-  font-weight: bold; /* If you want it to be bold */
-  padding-left: 5%;
-  margin-bottom: 20px
-}
-
-li span
-    {
-        position:relative;
-        left:5px;
-    }
 
 /* unvisited link */
 a:link {
