@@ -37,8 +37,7 @@ ul {
   font-size: 25px;
   line-height: 100%;
   list-style: none;
-  padding-left: 0;
-  margin-left: 5%;
+  padding-left: 5%;
   margin-bottom: 5px
 }
 
@@ -51,8 +50,7 @@ li::before {
   color: blue; /* Change the color */
   font-family: 'Mulish', sans-serif;
   font-weight: bold; /* If you want it to be bold */
-  padding-left: 0;
-  margin-left: 5%;
+  padding-left: 5%;
   margin-bottom: 5px
 }
 
