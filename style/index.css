@@ -54,15 +54,16 @@ a:active {
 
 
 /*socials */
-.fa {
-  border: none;
-  padding: 20px;
-  color: silver;
-  width: 30px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  margin-left: 5%;
-}
+.fa
+{ 
+  text-align:center;
+ border:none;
+ background-color:#ffffff;
+  color:#1D233D;
+  width:30px;
+  padding-top:3px;
+  padding-bottom:3px;
+  margin:0px 0px 0px 0px !important; 
 
 /* Add a hover effect if you want */
 .fa:hover {
