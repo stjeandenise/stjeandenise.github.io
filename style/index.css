@@ -11,9 +11,36 @@ h1 {
   line-height: 100%;
   margin-left: 5%; 
   text-align: left;
-  animation: glow $d ease-in-out both infinite;	
- } 
-  
+x } 
+
+h1 span {
+  display: table-cell;
+  margin-left: 5%; 
+  text-align: left;
+  animation: animate 2s linear infinite;
+}
+
+@keyframes animate
+{
+  0%, 100%
+  {
+    color: #fff;
+    filter: blur(2px);
+    box-shadow: 0 0 10px #00b3ff,
+                0 0 20px #00b3ff,
+                0 0 40px #00b3ff,
+                0 0 60px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 100px #00b3ff,
+                0 0 200px #00b3ff,
+                0 0 300px #00b3ff,
+  }
+    5%, 95%
+  {
+    color: #111;
+    filter: blur(2px);
+  }
+}
 
 h2 {
   font-weight: lighter;
