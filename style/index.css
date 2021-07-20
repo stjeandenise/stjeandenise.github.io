@@ -65,7 +65,7 @@ a:active {
 /* round icons */
 .socialMediaLinks a { 
     font-size: 20px;  
-    margin-left: 5%; 
+    padding-left: 5%; 
     margin: 0 10px 0 0; 
     color: #000000; 
     text-decoration: none; 
