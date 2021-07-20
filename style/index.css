@@ -25,6 +25,7 @@ p {
   }
 }
 
+#container h1 { display: inline }
 
 h1 {
   font-weight: normal;
