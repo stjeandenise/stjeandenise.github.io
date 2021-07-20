@@ -4,8 +4,7 @@ body {
   font-family: 'Mulish', sans-serif;
 }
 
-
-h1 {
+p {
   font-weight: normal;
   color: black;
   font-size: 50px;  
@@ -24,7 +23,8 @@ h1 {
   }
 }
 
-h2 {
+
+h1 {
   font-weight: normal;
   color: black;
   font-size: 50px;  
@@ -35,7 +35,7 @@ h2 {
 }
 
 
-h3 {
+h2 {
   font-weight: lighter;
   color: black;
   font-size: 30px;
@@ -45,7 +45,7 @@ h3 {
 }
 
 
-h4 {
+h3 {
   font-weight: lighter;
   color: black;
   font-size: 25px;
