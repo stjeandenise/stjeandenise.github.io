@@ -100,7 +100,11 @@ a:active {
 
 /* pulsing light */
 .pulsate {
-     animation: pulsate 5s infinite alternate;     
+     animation: pulsate .11s infinite alternate;     
+}
+
+.container {
+  margin-top: 20vh;
 }
 
 @keyframes pulsate {
