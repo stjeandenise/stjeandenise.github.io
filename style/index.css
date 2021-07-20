@@ -89,32 +89,45 @@ a:active {
 }
 
 /* neon text */
-span {
-  animation: glow 2s ease-in-out both infinite;	
-
-	@for $i from 1 through 13 {
-		&:nth-child(#{$i}) {
-			animation-delay: $i/13 * -2s;
-		}
-	}
+.neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #fff,
+      0 0 82px #fff,
+      0 0 92px #fff;
 }
 
-@mixin glow(cyan, yellow, tomato) {
-	text-shadow:
-		0 0 50px/6 snow,
-		0 (-25px) 50px tomato,
-		(-25px) 25px 50px yellow,
-		25px 25px 50px tomato;
+/* pulsing light */
+.pulsate {
+     animation: glow 2.5s ease-in-out both infinite;     
+}
+
+.container {
+  margin-left: 5px; 
 }
 
 @keyframes glow {
-	0%, 100% {
-		@include glow(nth(cyan, 1), nth(cyan, 2), nth(cyan, 3));	
-	}
-	33% {
-		@include glow(nth(cyan, 2), nth(cyan, 3), nth($c, 1));
-	}
-	66% {
-		@include glow(nth(cyan, 3), nth(cyan, 1), nth(cyan, 2));
-	}
+    
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #fff,
+      0 0 80px #fff,
+      0 0 90px #fff;
+  }
+  
+  0% {
+
+    text-shadow:
+    0 0 4px #fff,
+    0 0 10px #fff,
+    0 0 18px #fff,
+    0 0 38px #fff,
+    0 0 73px #fff;
 }
