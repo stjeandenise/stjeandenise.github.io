@@ -101,10 +101,7 @@ a:active {
 }
 
 .neonText span {
-  display: table-cell;
-  margin-left: 5%; 
-  text-align: left;
-  animation: animate 2s linear infinite;
+  animation: glow $d ease-in-out both infinite;	
 }
 
 /* pulsing light */
