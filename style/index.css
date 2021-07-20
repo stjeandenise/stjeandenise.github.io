@@ -1,12 +1,12 @@
 body {
   background-color: #2f3742;
   color: #dfe0e4;
-  font-family: 'Mulish', sans-serif;
 }
 
 h1 {
   font-weight: lighter;
   color: white;
+  font-family: 'Rogue Script', sans-serif;
   font-size: 60px;  
   line-height: 100%;
   margin-left: 5%; 
@@ -17,6 +17,7 @@ h1 {
 h2 {
   font-weight: lighter;
   color: white;
+  font-family: 'Mulish', sans-serif;
   font-size: 22px;
   line-height: 120%;
   margin-left: 5%;
@@ -35,6 +36,7 @@ h3 {
 
 p {
   font-weight: lighter;
+  font-family: 'Mulish', sans-serif;
   color: white;
   font-size: 40px;
   line-height: 100%;
