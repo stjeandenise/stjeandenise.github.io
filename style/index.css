@@ -95,7 +95,7 @@ a:active {
       0 0 7px #fff,
       0 0 10px #fff,
       0 0 21px #fff,
-      0 0 42px #fff,
+      0 0 42px #fff;
 }
 
 /* pulsing light */
@@ -115,7 +115,7 @@ a:active {
       0 0 4px #fff,
       0 0 11px #fff,
       0 0 19px #fff,
-      0 0 40px #fff,
+      0 0 40px #fff;
   }
   
   0% {
@@ -124,7 +124,7 @@ a:active {
     0 0 2px #fff,
     0 0 4px #fff,
     0 0 6px #fff,
-    0 0 10px #fff,
+    0 0 10px #fff;
 }
 
 
