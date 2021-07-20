@@ -14,101 +14,6 @@ h1 {
   text-align: left;
 } 
 
-h1 span {
-  display: table-cell;
-  margin-left: 5%; 
-  text-align: left;
-  animation: animate 2s linear infinite;
-}
-
-h1 span: nth-child(1)
-{
-  animation-delay: 0s;
-}
-
-h1 span: nth-child(2)
-{
-  animation-delay: 0.25s;
-}
-
-h1 span: nth-child(3)
-{
-  animation-delay: 0.5s;
-}
-
-h1 span: nth-child(4)
-{
-  animation-delay: 0.75s;
-}
-
-h1 span: nth-child(5)
-{
-  animation-delay: 1s;
-}
-
-h1 span: nth-child(6)
-{
-  animation-delay: 1.25s;
-}
-
-h1 span: nth-child(7)
-{
-  animation-delay: 1.5s;
-}
-
-h1 span: nth-child(8)
-{
-  animation-delay: 1.75s;
-}
-
-h1 span: nth-child(9)
-{
-  animation-delay: 2s;
-}
-
-h1 span: nth-child(10)
-{
-  animation-delay: 2.25s;
-}
-
-h1 span: nth-child(11)
-{
-  animation-delay: 2.5s;
-}
-
-h1 span: nth-child(12)
-{
-  animation-delay: 3s;
-}
-h1 span: nth-child(13)
-{
-  animation-delay: 3.5s;
-}
-
-
-@keyframes animate
-{
-  0%,100%
-  {
-    color: #fff;
-    filter: blur(2px);
-    text-shadow: 0 0 10px #00b3ff,
-                0 0 20px #00b3ff,
-                0 0 40px #00b3ff,
-                0 0 60px #00b3ff,
-                0 0 80px #00b3ff,
-                0 0 120px #00b3ff,
-                0 0 200px #00b3ff,
-                0 0 300px #00b3ff,
-  }
-    5%,95%
-  {
-    color: #111;
-    filter: blur(0px);
-    text-shadow: none;
-  }
-}
-
 h2 {
   font-weight: lighter;
   color: white;
@@ -182,3 +87,111 @@ a:active {
     text-align: center;
     border-radius: 50%;
 }
+
+/* neon text */
+.neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #fff,
+      0 0 82px #fff,
+      0 0 92px #fff;
+}
+
+.neonText span {
+  display: table-cell;
+  margin-left: 5%; 
+  text-align: left;
+  animation: animate 2s linear infinite;
+}
+
+.neonText span: nth-child(1)
+{
+  animation-delay: 0s;
+}
+
+.neonText span: nth-child(2)
+{
+  animation-delay: 0.25s;
+}
+
+.neonText span: nth-child(3)
+{
+  animation-delay: 0.5s;
+}
+
+.neonText span: nth-child(4)
+{
+  animation-delay: 0.75s;
+}
+
+.neonText span: nth-child(5)
+{
+  animation-delay: 1s;
+}
+
+.neonText span: nth-child(6)
+{
+  animation-delay: 1.25s;
+}
+
+.neonText span: nth-child(7)
+{
+  animation-delay: 1.5s;
+}
+
+.neonText span: nth-child(8)
+{
+  animation-delay: 1.75s;
+}
+
+.neonText span: nth-child(9)
+{
+  animation-delay: 2s;
+}
+
+.neonText span: nth-child(10)
+{
+  animation-delay: 2.25s;
+}
+
+.neonText span: nth-child(11)
+{
+  animation-delay: 2.5s;
+}
+
+.neonText span: nth-child(12)
+{
+  animation-delay: 3s;
+}
+.neonText span: nth-child(13)
+{
+  animation-delay: 3.5s;
+}
+
+
+@keyframes animate
+{
+  0%,100%
+  {
+    color: #fff;
+    filter: blur(2px);
+    text-shadow: 0 0 10px #00b3ff,
+                0 0 20px #00b3ff,
+                0 0 40px #00b3ff,
+                0 0 60px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 120px #00b3ff,
+                0 0 200px #00b3ff,
+                0 0 300px #00b3ff,
+  }
+    5%,95%
+  {
+    color: #111;
+    filter: blur(0px);
+    text-shadow: none;
+  }
+}
+
