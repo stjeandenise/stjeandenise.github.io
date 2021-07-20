@@ -1,7 +1,12 @@
+body {
+  background-color: #2f3742;
+  color: #dfe0e4;
+  font-family: 'Mulish', sans-serif;
+}
+
 h1 {
   font-weight: normal;
   color: black;
-  font-family: 'Mulish', sans-serif;
   font-size: 50px;  
   line-height: 100%;
   margin-left: 5%; 
@@ -13,7 +18,6 @@ h1 {
 h2 {
   font-weight: lighter;
   color: black;
-  font-family: 'Mulish', sans-serif;
   font-size: 30px;
   line-height: 120%;
   margin-left: 5%;
@@ -24,7 +28,6 @@ h2 {
 h3 {
   font-weight: lighter;
   color: black;
-  font-family: 'Mulish', sans-serif;
   font-size: 25px;
   line-height: 100%;
   margin-left: 5%;
