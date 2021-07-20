@@ -36,12 +36,12 @@ h3 {
 
 /* unvisited link */
 a:link {
-  color: blue;
+  color: #98AFC7;
 }
 
 /* visited link */
 a:visited {
-  color: blue;
+  color: #98AFC7;
 }
 
 /* mouse over link */
@@ -51,7 +51,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: blue;
+  color: #98AFC7;
 }
 
 /*socials */
