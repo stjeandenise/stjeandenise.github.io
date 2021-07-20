@@ -95,7 +95,7 @@ $o : 25px;  /*glow offset*/
 $d : 2s;    /*duration*/ 
 $chars : 6; /*# of letters*/ 
 $bg : #111; /*background color*/ 
-$c : #FF6347;
+$c : cyan yellow tomato;
 
 span {
 	animation: glow $d ease-in-out both infinite;	
@@ -126,4 +126,3 @@ span {
 		@include glow(nth($c, 3), nth($c, 1), nth($c, 2));
 	}
 }
-
