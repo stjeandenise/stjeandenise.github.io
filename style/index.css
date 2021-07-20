@@ -11,6 +11,7 @@ h1 {
   line-height: 100%;
   margin-left: 5%; 
   text-align: left;
+  animation: glow $d ease-in-out both infinite;	
  } 
   
 
