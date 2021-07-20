@@ -92,7 +92,7 @@ a:active {
 $r : 50px;  // glow radius
 $o : 25px;  // glow offset
 $d : 2s;    // duration
-$chars : 7; // # of letters
+$chars : 6; // # of letters
 $bg : #111; // background color
 
 $c : cyan yellow tomato;
