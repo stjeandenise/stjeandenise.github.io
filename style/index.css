@@ -11,7 +11,7 @@ h1 {
   line-height: 100%;
   margin-left: 5%; 
   text-align: left;
-  animation: pulsate 3s ease-in-out infinite alternate;     
+  animation: pulsate 2.5s ease-in-out infinite alternate;     
  } 
   
 
@@ -103,7 +103,7 @@ a:active {
 
 /* pulsing light */
 .pulsate {
-     animation: pulsate 3s ease-in-out infinite alternate;     
+     animation: pulsate 2.5s ease-in-out infinite alternate;     
 }
 
 .container {
