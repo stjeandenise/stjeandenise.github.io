@@ -90,12 +90,11 @@ a:active {
 }
 
 /* glowing text */
-$r : 50px;  // glow radius
-$o : 25px;  // glow offset
-$d : 2s;    // duration
-$chars : 6; // # of letters
-$bg : #111; // background color
-
+$r : 50px;  /*glow radius*/ 
+$o : 25px;  /*glow offset*/ 
+$d : 2s;    /*duration*/ 
+$chars : 6; /*# of letters*/ 
+$bg : #111; /*background color*/ 
 $c : cyan yellow tomato;
 
 span {
