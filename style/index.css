@@ -89,18 +89,7 @@ a:active {
 }
 
 /* neon text */
-.neonText {
-    color: #fff;
-    text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #fff,
-      0 0 82px #fff,
-      0 0 92px #fff;
-}
-
-.neonText span {
+span {
   animation: glow 2s ease-in-out both infinite;	
 
 	@for $i from 1 through 13 {
