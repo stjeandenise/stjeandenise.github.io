@@ -89,13 +89,27 @@ a:active {
     border-radius: 50%;
 }
 
-/* glowing text */
-$r : 50px;  /*glow radius*/ 
-$o : 25px;  /*glow offset*/ 
-$d : 2s;    /*duration*/ 
-$chars : 6; /*# of letters*/ 
-$bg : #111; /*background color*/ 
+
+@import 'https://fonts.googleapis.com/css?family=Permanent+Marker';
+
+$r : 50px;  // glow radius
+$o : 25px;  // glow offset
+$d : 2s;    // duration
+$chars : 7; // # of letters
+$bg : #111; // background color
+
 $c : cyan yellow tomato;
+
+body {
+	font: 15vw/1 Permanent Marker;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	text-align: center;
+	background: $bg;
+	color: snow;
+}
 
 span {
 	animation: glow $d ease-in-out both infinite;	
