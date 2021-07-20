@@ -10,7 +10,6 @@ h1 {
   font-size: 60px;  
   line-height: 100%;
   margin-left: 5%; 
-  padding-right: 20%;
   text-align: left;
 }
 
@@ -40,6 +39,7 @@ p {
   font-size: 40px;
   line-height: 100%;
   margin-left: 5%;
+   padding-right: 20%;
   text-align: left;
 }
 
