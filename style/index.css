@@ -100,7 +100,7 @@ a:active {
 
 /* pulsing light */
 .pulsate {
-     animation: pulsate .11s infinite alternate;     
+     animation: pulsate 1.5s infinite alternate;     
 }
 
 .container {
