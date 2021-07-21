@@ -11,6 +11,7 @@ h1 {
   line-height: 100%;
   margin-left: 5%; 
   text-align: left;
+  animation: animate 2s linear infinite;
 } 
 
 h2 {
