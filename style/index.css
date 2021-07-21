@@ -101,3 +101,17 @@ a:active {
   text-align: left;
   animation: animate 2s linear infinite;
 }
+
+@keyframes animate
+{
+  0%,100%
+  {
+    color: #fff;
+    filter: blur(2px);
+  }
+   5%,95%
+  {
+    color: #111;
+    filter: blur(0px);
+  }
+}
