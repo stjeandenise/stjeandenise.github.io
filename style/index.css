@@ -136,7 +136,7 @@ a:active {
   {
     color: #fff;
     filter: blur(2px);
-    box-shadow: 0 0 10px #00b3ff,
+    text-shadow: 0 0 10px #00b3ff,
                 0 0 20px #00b3ff,
                 0 0 40px #00b3ff,
                 0 0 60px #00b3ff,
@@ -150,5 +150,6 @@ a:active {
   {
     color: #111;
     filter: blur(0px);
+    text-shadow: 0 0 10px none;
   }
 }
