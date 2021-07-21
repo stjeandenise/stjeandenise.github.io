@@ -11,7 +11,7 @@ h1 {
   line-height: 100%;
   margin-left: 5%; 
   text-align: left;
-  animation: animate 2s linear infinite;
+  animation: animate 2s linear infinite alternate;
 } 
 
 h2 {
@@ -89,16 +89,12 @@ a:active {
 }
 
 /* neon text */
-@import url(https://fonts.googleapis.com/css?family=Bad+Script);
-.neonText {
-  border: none;
-}
 
 h1 span{
   display: table-cell;
   margin-left: 5%; 
   text-align: left;
-  animation: animate 2s linear infinite;
+  animation: animate 2s linear infinite alternate;
 }
 
 @keyframes animate
