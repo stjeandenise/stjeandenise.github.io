@@ -89,45 +89,15 @@ a:active {
 }
 
 /* neon text */
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
 .neonText {
-    color: #fff;
-    text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #fff,
-      0 0 82px #fff,
-      0 0 92px #fff;
+  border: none;
+  color: transparent;
 }
 
-/* pulsing light */
-.pulsate {
-     animation: glow 2.5s ease-in-out both infinite;     
-}
-
-.container {
-  margin-left: 5px; 
-}
-
-@keyframes glow {
-    
-  100% {
-
-      text-shadow:
-      0 0 4px #fff,
-      0 0 11px #fff,
-      0 0 19px #fff,
-      0 0 40px #fff,
-      0 0 80px #fff,
-      0 0 90px #fff;
-  }
-  
-  0% {
-
-    text-shadow:
-    0 0 4px #fff,
-    0 0 10px #fff,
-    0 0 18px #fff,
-    0 0 38px #fff,
-    0 0 73px #fff;
+.neonText span{
+  display: table-cell;
+  margin-left: 5%; 
+  text-align: left;
+  animation: animate 2s linear infinite;
 }
