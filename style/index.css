@@ -6,7 +6,7 @@ body {
 
 h1 {
   font-weight: lighter;
-  color: white;
+  color: 111;
   font-family: 'Bad Script', cursive;
   font-size: 65px;  
   line-height: 100%;
@@ -92,7 +92,6 @@ a:active {
 @import url(https://fonts.googleapis.com/css?family=Bad+Script);
 .neonText {
   border: none;
-  color: transparent;
 }
 
 .neonText span{
@@ -108,7 +107,7 @@ a:active {
   {
     color: #fff;
     filter: blur(2px);
-    text-shadow: 0 0 10px #00b3ff,
+    box-shadow: 0 0 10px #00b3ff,
                 0 0 20px #00b3ff,
                 0 0 40px #00b3ff,
                 0 0 60px #00b3ff,
