@@ -1,9 +1,13 @@
-html { 
-  background: url(image/dramatic_cool.jpg) no-repeat center center fixed; 
+body {
+  display: none;
+  background-image: url("../image/dramatic_cool.jpg");
+  background-color: #000000; 
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-right: 7%;
 }
 
 #all_content {
