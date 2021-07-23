@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://github.com/stjeandenise/stjeandenise.github.io/tree/main/image/noir.jpg");
+  background-image: url("..image/noir.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
