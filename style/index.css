@@ -14,41 +14,75 @@ background-image: url("/image/rwjf_adobespark.png");
   background-size: contain;
 }
 
-html{ 
-background: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%)
+$line-color: hsla(205,80%,40%,1);
 
-$lineColor : #030617
-$step : 3
-$borderWeight: 1px
-
-@function borderShadow ($n) 
-  $value: '0px 0px #{$lineColor}'
-  @for $i from 0 through $n
-    $value: '#{$value} , 0px #{($step)*$i}px #{$lineColor}'
-  @return unquote($value)
-
-@function stripeShadow ($n) 
-  $value: '0px 0px #{$lineColor}'
-  @for $i from 0 through $n
-    $value: '#{$value} , #{($step)*$i}px 0px #{$lineColor}'
-
-  @return unquote($value)
-
-$border:  borderShadow(1000)
-$stripe:  stripeShadow(1000)
-
-#grid
-  width: 100%
-  height: $borderWeight
-  box-shadow: $border
+html {
+  font-size: .8em;
   
-  &:after
-    content: ""
-    position: absolute
-    width: $borderWeight
-    height: 100%
-    box-shadow: $stripe
-}
+  background-color: #222;
+  background-image:
+    // <> 
+    linear-gradient(
+        25deg,
+        transparent 65%,
+        $line-color,
+        transparent 70%
+        ),
+    linear-gradient(
+        -25deg,
+        transparent 65%,
+        $line-color,
+        transparent 70%
+        ),
+    linear-gradient(
+        -25deg,
+        transparent 30%,
+        $line-color,
+        transparent 35%
+        ),
+    linear-gradient(
+        25deg,
+        transparent 30%,
+        $line-color,
+        transparent 35%
+        ),    
+    
+    // ◊
+    linear-gradient(
+        65deg,
+        transparent 65%,
+        $line-color,
+        transparent 70%
+        ),
+    linear-gradient(
+        -65deg,
+        transparent 65%,
+        $line-color,
+        transparent 70%
+        ),
+    linear-gradient(
+        -65deg,
+        transparent 30%,
+        $line-color,
+        transparent 35%
+        ),
+    linear-gradient(
+        65deg,
+        transparent 30%,
+        $line-color,
+        transparent 35%
+        );
+  background-size: 
+    5em 2em,
+    5em 2em,
+    5em 2em,
+    5em 2em,
+    
+    2em 5em,
+    2em 5em,
+    2em 5em,
+    2em 5em;
+  }
 
 
 
