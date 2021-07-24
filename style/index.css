@@ -4,15 +4,14 @@ a {
 }
 
 body {
-background-image: url("/image/noir.jpg");
-padding-left: 11em;
-padding-right: 20em;
-font-family:
-Georgia, "Times New Roman",
-Times, serif; 
-color: red;
-
-
+background-image: url("/image/dramatic_cool.jpg");
+background-color: #000000; /*if img doesn't load*/
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-right: 5%;
 }
 
 footer {
