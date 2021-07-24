@@ -1,3 +1,12 @@
+a {
+  color:white;
+  text-decoration:none;
+}
+
+#all_content {
+      background-size: 100% auto; /
+    }
+
 body {
   display: none;
   background-image: url("../image/bruh.jpg");
@@ -8,6 +17,16 @@ body {
   -o-background-size: cover;
   background-size: cover;
   margin-right: 7%;
+}
+
+footer {
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 70%;
+  font-weight: normal;
+  line-height: 100%;
+  margin-left: 5%;
+  margin-bottom: 10%;
 }
 
 h1 {
