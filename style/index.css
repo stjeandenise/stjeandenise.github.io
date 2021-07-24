@@ -4,13 +4,15 @@ a {
 }
 
 body {
-background-image: url('http://www.birds.com/wp-content/uploads/home/bird4.jpg');
-padding-left: 11em;
-padding-right: 20em;
-font-family:
-Georgia, "Times New Roman",
-Times, serif; 
-color: red;
+  display: none;
+  background-image: url("../image/noir.jpg");
+  background-color: #000000; /*if img doesn't load*/
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: 5%;
 }
 
 footer {
