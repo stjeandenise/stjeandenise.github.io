@@ -82,8 +82,8 @@ body {
   margin-left: 25%;
 }
 .line:nth-child(3)::after {
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 @-webkit-keyframes drop {
