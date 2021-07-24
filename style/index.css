@@ -16,16 +16,6 @@ background-image: url("/image/rwjf_adobespark.png");
   
 }
 
-p {
-  color: white;
-  font-family: 'Mulish', sans-serif;
-  font-size: 5px;
-  font-weight: normal;
-  line-height: 100%;
-  margin-left: 5%;
-  margin-bottom: 10%;
-}
-
 h1 {
   font-weight: lighter;
   color: white;
@@ -56,6 +46,17 @@ h3 {
   line-height: 100%;
   margin-left: 5%;
   text-align: left;
+}
+
+
+h4 {
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 100%;
+  margin-left: 5%;
+  margin-bottom: 10%;
 }
 
 p {
