@@ -14,13 +14,6 @@ background-image: url("/image/rwjf_adobespark.png");
   background-size: contain;
 }
 
-html {
-background:
-	linear-gradient(90deg, #161122 (22px - 1px), transparent 1%) center,
-	linear-gradient(#161122 (22px - 1px), transparent 1%) center, #987BEA;
-	background-size: 22px 22px;
-}
-
 h1 {
   font-weight: lighter;
   color: white;
