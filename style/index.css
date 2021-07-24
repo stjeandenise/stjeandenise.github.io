@@ -1,3 +1,4 @@
+/* links */
 a {
   color:white;
   text-decoration:none;
@@ -24,7 +25,7 @@ a:active {
   color: #306EFF;
 }
 
-
+/* background */
 body {
 background-image: url("/image/rwjf_adobespark.png");
   background-repeat: no-repeat;
@@ -131,6 +132,7 @@ body {
   }
 }
 
+/* name */
 h1 {
   font-weight: lighter;
   color: white;
@@ -144,50 +146,7 @@ h1 {
   animation: pulsate 2.5s ease-in-out infinite alternate;
 } 
 
- /* neon text */
-.neonText {
-    color: #fff;
-    text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #fff,
-      0 0 82px #fff,
-      0 0 92px #fff;
-}
-
-/* pulsing light */
-.pulsate {
-     animation: pulsate 2.5s ease-in-out infinite alternate;     
-}
-
-.container {
-  margin-left: 5px; 
-}
-
-@keyframes pulsate {
-    
-  100% {
-
-      text-shadow:
-      0 0 4px #fff,
-      0 0 11px #fff,
-      0 0 19px #fff,
-      0 0 40px #fff,
-      0 0 80px #fff,
-      0 0 90px #fff;
-  }
-  
-  0% {
-
-    text-shadow:
-    0 0 4px #fff,
-    0 0 10px #fff,
-    0 0 18px #fff,
-    0 0 38px #fff,
-    0 0 73px #fff;
-}
-
+/* body */
 h2 {
   font-weight: lighter;
   color: white;
@@ -198,6 +157,7 @@ h2 {
   text-align: left;
 }
 
+/* links */
 h3 {
   font-weight: lighter;
   font-family: 'Mulish', sans-serif;
@@ -208,7 +168,7 @@ h3 {
   text-align: left;
 }
 
-
+/* footer */
 h4 {
   color: white;
   font-family: 'Mulish', sans-serif;
@@ -219,6 +179,7 @@ h4 {
   margin-left: 5%;
 }
 
+/* bio */
 p {
   font-weight: lighter;
   font-family: 'Mulish', sans-serif;
