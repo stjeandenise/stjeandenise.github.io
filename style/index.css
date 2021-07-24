@@ -4,15 +4,17 @@ a {
 }
 
 body {
-  background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc,
-    url("/image/rwjf_adobespark.png");
+background-image: url("/image/rwjf_adobespark.png");
+  background-color: #263238;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right center;
   -webkit-background-size: contain;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain;}
+  background-size: contain;
+}
+
 
 h1 {
   font-weight: lighter;
