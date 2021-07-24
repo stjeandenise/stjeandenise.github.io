@@ -3,19 +3,9 @@ a {
   text-decoration:none;
 }
 
-
-$bg-color: hsl(256,33,10);
-$dot-color: hsl(256,33,70);
-
-$dot-size: 1px;
-$dot-space: 22px;
-
 body {
-	background:
-		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
-		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
-		$dot-color;
-	background-size: $dot-space $dot-space;
+  background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
+  background-size: 22px 22px;
 }
 
 h1 {
