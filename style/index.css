@@ -29,6 +29,7 @@ a:active {
 body {
 background-image: url("/image/rwjf_adobespark.png");
   background-repeat: no-repeat;
+  background-color: #000000;
   background-size: contain;
   background-position: right center;
   -webkit-background-size: contain;
