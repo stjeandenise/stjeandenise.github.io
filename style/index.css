@@ -3,12 +3,13 @@ a {
   text-decoration:none;
 }
 
-html {
-background-image: url("/image/dramatic_cool.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+body {
+background-image: url("/image/dramatic_cool.jpg");
+  background-color: #000000; /*if img doesn't load*/
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  margin-left: 5%;
 }
 
 footer {
