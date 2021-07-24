@@ -7,11 +7,13 @@ body {
 background-image: url("/image/rwjf_trans.png");
   background-color: #000000;
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
   -webkit-background-size: contain;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: contain;
-  margin-left: 75%;
+  
 }
 
 footer {
