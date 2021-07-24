@@ -55,6 +55,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
   overflow: hidden;
 }
+
 .line::after {
   content: "";
   display: block;
@@ -71,16 +72,20 @@ body {
   -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
           animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
 }
+
 .line:nth-child(1) {
   margin-left: -25%;
 }
+
 .line:nth-child(1)::after {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
+
 .line:nth-child(3) {
   margin-left: 25%;
 }
+
 .line:nth-child(3)::after {
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
@@ -103,7 +108,6 @@ body {
     top: 110%;
   }
 }
-
 
 
 h1 {
