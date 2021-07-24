@@ -4,10 +4,13 @@ a {
 }
 
 body {
-background-image: url("/image/bruh.jpg");
-  background-color: #000000; /*if img doesn't load*/
+background-image: url("/image/rwjf.jpg");
+  background-color: #000000;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  margin-left: 5%;
 }
 
 footer {
