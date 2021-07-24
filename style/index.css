@@ -7,16 +7,12 @@ a {
       background-size: 100% auto; /
     }
 
-body {
-  display: none;
-  background-image: url("../image/bruh.jpg");
-  background-color: #000000; /*if img doesn't load*/
-  background-repeat: no-repeat;
+html { 
+  background: url(https://www.w3docs.com/uploads/media/default/0001/01/477719675fecaac0362957c214fb9aa56fca99b5.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-right: 7%;
 }
 
 footer {
