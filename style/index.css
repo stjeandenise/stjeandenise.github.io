@@ -14,20 +14,12 @@ background-image: url("/image/rwjf_adobespark.png");
   background-size: contain;
 }
 
-/*colors */
-$bg-color: hsl(256,33,10);
-$dot-color: hsl(256,33,70);
-
-/* dimensions */
-$dot-size: 1px;
-$dot-space: 22px;
-
 html {
 	background:
-		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
-		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
-		$dot-color;
-	background-size: $dot-space $dot-space;
+		linear-gradient(90deg, #161122 (22px - 1px), transparent 1%) center,
+		linear-gradient(#161122 (22px - 1px), transparent 1%) center,
+		#987BEA;
+	background-size: 22px 22px;
 }
 
 h1 {
