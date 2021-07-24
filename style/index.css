@@ -3,16 +3,19 @@ a {
   text-decoration:none;
 }
 
+
+$bg-color: hsl(256,33,10);
+$dot-color: hsl(256,33,70);
+
+$dot-size: 1px;
+$dot-space: 22px;
+
 body {
-background-image: url("/image/rwjf_bg.png");
-  background-color: #263238;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right center;
-  -webkit-background-size: contain;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: contain;
+	background:
+		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+		$dot-color;
+	background-size: $dot-space $dot-space;
 }
 
 h1 {
