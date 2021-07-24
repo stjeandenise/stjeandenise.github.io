@@ -191,6 +191,17 @@ p {
   text-align: left;
 }
 
+/* DATA-WORDS Loop/swap words in sentence */
+[data-words] {
+  vertical-align: top;
+  position: static;
+}
+[data-words] > span {
+  display: none;
+  position: absolute;
+  color: white;
+}
+
 /*socials */
 .socialMediaLinks a {
     font-size: 20px;
