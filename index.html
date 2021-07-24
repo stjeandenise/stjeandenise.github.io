@@ -22,6 +22,29 @@
 
       gtag('config', 'UA-202559473-1');
     </script>
+    
+    
+    <!--js for the rotating text -->
+    <script src="//code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+    $("[data-words]").attr("data-words", function(i, words) {
+
+    var $self = $(this).text(""),
+        words = words.split("|"),
+        tot   = words.length,
+        c     = 0; 
+
+    for(var i=0; i<tot; i++) $self.append($('<span/>',{text:words[i]}));
+
+    var $words = $self.find("span");
+
+    (function loop(){
+      $self.animate({ width: $words.eq( c ).width() });
+      $words.stop().fadeOut().eq(c).fadeIn().delay(1000).show(0, loop);
+      c = ++c % tot;
+    }());    
+    });
+      </script>
 </head>
   
 <body>
@@ -51,7 +74,7 @@
       </h2>
 
       <p>
-        infectious disease epidemiologist and global public health researcher based in durham, nc.
+        infectious disease epidemiologist and global public health researcher based in durham, nc. ask me about <span class="things"></span>
       </p>
         
 </body>
