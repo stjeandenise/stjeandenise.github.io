@@ -4,7 +4,7 @@ a {
 }
 
 html {
-background-image: url("/image/rwjf_adobespark.png");
+  background-image: url("/image/rwjf_adobespark.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right center;
@@ -12,11 +12,7 @@ background-image: url("/image/rwjf_adobespark.png");
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: contain;
-}
-
-body {
   background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
-  background-size: cover;
 }
 
 h1 {
