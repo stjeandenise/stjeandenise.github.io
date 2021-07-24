@@ -143,8 +143,14 @@ h1 {
   margin-bottom: 3%; 
   margin-left: 5%; 
   text-align: left;
-  animation: pulsate 2.5s ease-in-out infinite alternate;
 } 
+
+h1 span {
+  display: table-cell;
+  margin-left: 5%; 
+  text-align: left;
+  animation: animate 2s linear infinite;
+}
 
 /* body */
 h2 {
