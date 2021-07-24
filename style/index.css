@@ -4,13 +4,9 @@ a {
 }
 
 body {
-background-image: url("/image/dramatic_cool.jpg");
+background-image: url("/image/bruh.jpg");
   background-color: #000000; /*if img doesn't load*/
-  background-repeat: no-repeat;
-  background-size: 150px;
-  width: 300px;
-  height: 300px;
-  background-position: center;
+  background-size: cover;
   margin-left: 5%;
 }
 
