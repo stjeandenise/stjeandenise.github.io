@@ -25,25 +25,18 @@
     
     
     <!--js for the rotating text -->
-    <script src="javascript/index.js" type="text/javascript"></script>
-    <script>
-    $("[data-words]").attr("data-words", function(i, words) {
-
-    var $self = $(this).text(""),
-        words = words.split("|"),
-        tot   = words.length,
-        c     = 0; 
-
-    for(var i=0; i<tot; i++) $self.append($('<span/>',{text:words[i]}));
-
-    var $words = $self.find("span");
-
-    (function loop(){
-      $self.animate({ width: $words.eq( c ).width() });
-      $words.stop().fadeOut().eq(c).fadeIn().delay(1000).show(0, loop);
-      c = ++c % tot;
-    }());    
-    });
+    <script src="javascript/typed.min.js" type="text/javascript"></script>
+      <script>
+         $(function(){
+          $(".interests").typed({
+            strings: ["youtube", "acai bowls", "raveena", "treadmills", "manicures", "rihanna", "the future of cities", "books", "ramen", "nyu", "easter eggs", "tweeting", "not tweeting", "phillips exeter", "wine", "to-do lists", "public speaking", "lorde", "interior design", "dinner parties", "the internet", "paris", "my parents", "my bed", "inbox 0", "weekends", "restaurants", "long nails", "black twitter", "iphones", "crop tops", "writing", "dom kennedy", "apple pie", "house plants", "mornings", "sunshine"],
+          typeSpeed: 0,
+          showCursor: false,
+          loop: true,
+          loopCount: false,
+          backDelay: 1000,
+          });
+          });
       </script>
 </head>
   
@@ -74,7 +67,7 @@
       </h2>
 
       <p>
-        infectious disease epidemiologist and global public health researcher based in durham, nc. ask me about <span data-words="some|an interesting|some longer" </span> 
+        infectious disease epidemiologist and global public health researcher based in durham, nc. ask me about <span class="interests"></span>
       </p>
         
 </body>
