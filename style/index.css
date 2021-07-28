@@ -82,7 +82,7 @@ h1 {
   animation-iteration-count: infinite;
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-color: #808080;
+  background-color: #606060;
 }
 @-moz-keyframes shimmer {
   0% {
