@@ -83,7 +83,6 @@ h1 {
   background-repeat: no-repeat;
   background-position: 0 0;
   background-color: #686868;
-  animation-delay: 0s;
 }
 @-moz-keyframes shimmer {
   0% {
