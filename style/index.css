@@ -7,12 +7,12 @@ a {
 
 /* unvisited link */
 a:link {
-  color: #6495ED;
+  color: #F7E752;
 }
 
 /* visited link */
 a:visited {
-  color: #6495ED;
+  color: #F7E752;
 }
 
 /* mouse over link */
@@ -22,7 +22,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: #6495ED;
+  color: #F7E752;
 }
 
 /* background */
