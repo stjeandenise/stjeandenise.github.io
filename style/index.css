@@ -187,19 +187,8 @@ p {
   line-height: 100%;
   margin-left: 5%;
   margin-top: 3%;
-  padding-right: 40%;
+  padding-right: 35%;
   text-align: left;
-}
-
-/* DATA-WORDS Loop/swap words in sentence */
-[data-words] {
-  vertical-align: top;
-  position: static;
-}
-[data-words] > span {
-  display: none;
-  position: absolute;
-  color: white;
 }
 
 /*socials */
