@@ -30,6 +30,7 @@ body {
 background-image: url("/image/rwjf_adobespark.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background_color: #000000;
   background-position: right center;
   -webkit-background-size: contain;
   -moz-background-size: cover;
