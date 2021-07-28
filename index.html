@@ -28,15 +28,15 @@
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 
     <script>
-    	var typed4 = new Typed('#typed-text', {
-        strings: ['Look ma I\'m typing.', 'This is awesome!', 'Let\'s do it again. Weee!'],
-        typeSpeed: 75,
-        backSpeed: 25,
-        bindInputFocusEvents: true,
-        loop: true,
-        cursorChar: '_',
-        backDelay: 1000,
-        startDelay: 1000
+      $(function(){
+      $(".things").typed({
+        strings: ["youtube", "acai bowls", "raveena", "treadmills", "manicures", "rihanna", "lorde", "dom kennedy", "apple pie", "house plants", "mornings", "sunshine"],
+      typeSpeed: 0,
+      showCursor: false,
+      loop: true,
+      loopCount: false,
+      backDelay: 1000,
+      });
       });
     </script> 
     
@@ -69,7 +69,7 @@
       </h2>
 
       <p>
-        infectious disease epidemiologist and global public health researcher based in durham, nc. ask me about <span data-words=="hi|wow">hi</span>
+        infectious disease epidemiologist and global public health researcher based in durham, nc. ask me about <span class="things"></span>
       </p>
         
 </body>
