@@ -38,7 +38,7 @@ background-image: url("/image/rwjf_adobespark.png");
   background-size: contain;
 }
 
-/* name */
+/* title */
 h1 {
   font-weight: lighter;
   color: white;
@@ -51,6 +51,7 @@ h1 {
   text-align: left;
 } 
 
+/* shimmer */
 .shimmer {
   font-family: 'WindSong', cursive;
   color: white;
@@ -164,7 +165,7 @@ p {
   text-align: left;
 }
 
-/*socials */
+/* socials */
 .socialMediaLinks a {
     font-size: 20px;
     margin-left: 5px; 
