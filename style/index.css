@@ -166,83 +166,97 @@ p {
 }
 
 /* socials */
-/* wrapper */
-.icon-button {
-	background-color: white;
-	border-radius: 3.6rem;
-	cursor: pointer;
-	display: inline-block;
-	font-size: 2.0rem;
-	height: 3.6rem;
-	line-height: 3.6rem;
-	margin: 0 5px;
-	position: relative;
-	text-align: center;
-	-webkit-user-select: none;
-	   -moz-user-select: none;
-	    -ms-user-select: none;
-	        user-select: none;
-	width: 3.6rem;
+ .social-icons{
+    display: flex;
 }
+.social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: "Halvetica Neue",sans-serif,"Arial";
+    font-size: 2.5rem;
+    text-decoration: none;
+    transition: all 0.15s ease;
+    box-shadow: inset 1px 1px 2px #90a4ae,
+                inset -1px -1px 2px white,
+                5px 5px 10px #90a4ae,
+                -5px -5px 10px white;
+    border: 6px solid rgba(230,228,228);            
+}
+/* Tooltips */
+.tooltip {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    opacity: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    transform: translate(-50%, -100%);
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+  .tooltip:after {
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    content: "";
+    border: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+    transform: translate(-50%, 100%);
+  }
 
-/* circle */
-.icon-button span {
-	border-radius: 0;
-	display: block;
-	height: 0;
-	left: 50%;
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	-webkit-transition: all 0.3s;
-	   -moz-transition: all 0.3s;
-	     -o-transition: all 0.3s;
-	        transition: all 0.3s;
-	width: 0;
+/* color */
+.social-icon--twitter{
+    background: #2b97f1;
+    color: #fff;
 }
-.icon-button:hover span {
-	width: 3.6rem;
-	height: 3.6rem;
-	border-radius: 3.6rem;
-	margin: -1.8rem;
+.social-icon--instagram{
+    background: #527fa6;
+    color: white;
 }
-.twitter span {
-	background-color: #4099ff;
+.social-icon--facebook{
+    background: #3b5a9b;
+    color: white;
 }
-.facebook span {
-	background-color: #3B5998;
+/* Hover Effect*/
+.social-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -150%);
 }
-.orcid span {
-	background-color: #db5a3c;
+.social-icon--twitter .tooltip{
+    background: #2b97f1;
+    columns: currentColor;
 }
-
-/* icons */
-.icon-button i {
-	background: none;
-	color: white;
-	height: 3.6rem;
-	left: 0;
-	line-height: 3.6rem;
-	position: absolute;
-	top: 0;
-	-webkit-transition: all 0.3s;
-	   -moz-transition: all 0.3s;
-	     -o-transition: all 0.3s;
-	        transition: all 0.3s;
-	width: 3.6rem;
-	z-index: 10;
+.social-icon--twitter .tooltip::after{
+    border-top-color: #2b97f1;
 }
-.icon-button .icon-twitter {
-	color: #4099ff;
+.social-icon--instagram .tooltip{
+    background: #527fa6;
+    columns: currentColor;
 }
-.icon-button .icon-facebook {
-	color: #3B5998;
+.social-icon--instagram .tooltip:after{
+    border-top-color: #527fa6;
 }
-.icon-button .icon-orcid {
-	color: #db5a3c;
+.social-icon--facebook .tooltip{
+    background: #3b5a9b;
+    columns: currentColor;
 }
-.icon-button:hover .icon-twitter,
-.icon-button:hover .icon-facebook,
-.icon-button:hover .icon-orcid {
-	color: white;
+.social-icon--facebook .tooltip::after{
+    border-top-color: #3b5a9a;
 }
