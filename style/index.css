@@ -193,3 +193,20 @@ p {
 .social-menu a {
 	text-decoration: none;
 }
+
+.fa-linkedin {
+	background:#007bb6
+}
+
+.fa-twitter {
+	background:#00aced
+}
+
+.fa-orcid {
+	background:#adff2f
+}
+
+.social-menu i:hover {
+	opacity: .7;
+	border-radius: 0;
+}
