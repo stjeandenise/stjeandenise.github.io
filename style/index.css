@@ -206,7 +206,9 @@ p {
 	background:#adff2f
 }
 
-.social-menu:hover { 
-transform: scale(1.01); 
+.social-menu:grow {
+	transition: all .2s ease-in-out; 
 }
-
+.social-menu:grow:hover { 
+	transform: scale(1.1); 
+}
