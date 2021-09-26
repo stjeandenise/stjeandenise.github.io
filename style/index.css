@@ -179,7 +179,7 @@ p {
 	font-size: 25px;
 	margin: 0.5em;
 	margin-left: 5%;	
-	transition: all 0.2s ease-in-out;
+
 	display: flex;
 	justify-content: center;
 	transition: 1s ease;
@@ -211,10 +211,6 @@ p {
 }
  
 .social-menu i:hover {
-	-webkit-transform: rotateZ(10deg);
-	-ms-transform: rotateZ(10deg);
-	transform: rotateZ(10deg);
-	transition: 1s ease;
 	filter: grayscale(0%);
 	filter: gray;
 	-webkit-filter: grayscale(50%);
