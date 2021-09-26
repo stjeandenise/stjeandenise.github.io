@@ -59,3 +59,42 @@ h3 {
   text-align: left;
 }
 
+/* socials */	
+.social-menu {
+	display: flex;
+	list-style-type: none;
+}
+ 
+.social-menu i {
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	font-size: 25px;
+	margin: 0.5em;
+	transition: all 0.2s ease-in-out;
+	display: flex;
+	justify-content: center;
+}
+
+.social-menu i:before {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.social-menu a {
+	text-decoration: none;
+}
+
+.fa-google-plus {
+	background:#dd4b39
+}
+
+.fa-orcid {
+	background:#adff2f
+}
+ 
+.social-menu i:hover {
+	opacity: 0.5;
+}
