@@ -208,8 +208,9 @@ p {
 }
  
 .social-menu i:hover {
--webkit-transform: rotateZ(-10deg);
--ms-transform: rotateZ(-10deg);
-transform: rotateZ(-10deg);
-transition: 1s ease;
+	-webkit-transform: rotateZ(10deg);
+	-ms-transform: rotateZ(10deg);
+	transform: rotateZ(10deg);
+	transition: 1s ease;
+	opacity: 0.5;
 }
