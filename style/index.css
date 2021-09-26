@@ -207,3 +207,25 @@ p {
 .social-menu i:hover {
 	opacity: 0.5;
 }
+
+.example {
+  -webkit-columns: 3 150px;
+  -moz-columns: 3 150px;
+  columns: 3 150px;
+  -webkit-column-gap: 5em;
+  -moz-column-gap: 5em;
+  column-gap: 5em;
+  -webkit-column-rule-width: 4px;
+  -moz-column-rule-width: 4px;
+  column-rule-width: 4px;
+  -webkit-column-rule-color: #e74c3c;
+  -moz-column-rule-color: #e74c3c;
+  column-rule-color: #e74c3c;
+  margin: 2em auto 7em;
+}
+
+.example-dashed {
+  -webkit-column-rule-style: dashed;
+  -moz-column-rule-style: dashed;
+  column-rule-style: dashed;
+}
