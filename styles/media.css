@@ -30,8 +30,8 @@ a:active {
 h1 {
   font-weight: lighter;
   font-family: 'Mulish', sans-serif;
-  color: #44A9CC;
-  font-size: 45px;
+  color: #EB563A;
+  font-size: 42px;
   line-height: 100%;
   margin-left: 10%;
   margin-top: 3%;
@@ -44,7 +44,7 @@ h2 {
   color: white;
   font-family: 'Mulish', sans-serif;
   font-size: 22px;
-  line-height: 150%;
+  line-height: 170%;
   margin-left: 10%;
   text-align: left;
 }
