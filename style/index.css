@@ -166,6 +166,9 @@ p {
 }
 
 /* socials */
+ul {
+  margin-left: 5%;
+}
 .social-menu {
 	display: flex;
 	list-style-type: none;
