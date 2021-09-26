@@ -60,6 +60,12 @@ h3 {
   text-align: left;
 }
 
+ul {
+  margin-left: 10%;
+  text-align: left;
+}	
+	
+
 /* socials */	
 .social-menu {
 	display: flex;
