@@ -178,14 +178,8 @@ p {
 	border-radius: 50%;
 	font-size: 25px;
 	margin: 0.5em;
-	margin-left: 7%;	
-
-	display: flex;
-	justify-content: center;
+	margin-left: 10%;
 	transition: 1s ease;
-	filter: grayscale(0%);
-	-webkit-filter: grayscale(0%);
-	-webkit-transition: all 1s ease;
 }
 
 .social-menu i:before {
@@ -211,8 +205,5 @@ p {
 }
  
 .social-menu i:hover {
-	filter: grayscale(50%);
-	filter: gray;
-	-webkit-filter: grayscale(50%);
-	filter: none;
+	opacity: 50%;
 }
