@@ -177,7 +177,7 @@ p {
 	height: 40px;
 	border-radius: 50%;
 	font-size: 25px;
-	margin: 0 5em !important;
+	margin: 1em !important;
 	margin-left: 5%;	
 	transition: all 0.2s ease-in-out;
 	display: flex;
@@ -206,6 +206,6 @@ p {
 	background:#adff2f
 }
 
-.social-menu i:hover {
-	opacity: .2;
+.social-menu i:grow:hover { 
+transform: scale(1.1); 
 }
