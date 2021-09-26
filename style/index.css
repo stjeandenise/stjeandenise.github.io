@@ -182,6 +182,7 @@ p {
 	transition: all 0.2s ease-in-out;
 	display: flex;
 	justify-content: center;
+	transition: 1s ease;
 }
 
 .social-menu i:before {
@@ -205,10 +206,10 @@ p {
 .fa-orcid {
 	background:#adff2f
 }
-
-.social-menu:grow {
-	transition: all .2s ease-in-out; 
-}
-.social-menu:grow:hover { 
-	transform: scale(1.1); 
+ 
+.social-menu i:hover {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: 1s ease;
 }
