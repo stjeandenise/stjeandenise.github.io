@@ -41,7 +41,7 @@ h1 {
 
 h2 {
   font-weight: lighter;
-  color: white;
+  color: black;
   font-family: 'Mulish', sans-serif;
   font-size: 22px;
   line-height: 170%;
@@ -50,9 +50,9 @@ h2 {
 }
 
 
-h2 {
+h3 {
   font-weight: lighter;
-  color: white;
+  color: black;
   font-family: 'Mulish', sans-serif;
   font-size: 18px;
   line-height: 170%;
