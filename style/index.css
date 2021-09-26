@@ -177,7 +177,7 @@ p {
 	height: 40px;
 	border-radius: 50%;
 	font-size: 25px;
-	margin: 5%;
+	margin: 0.5em;
 	margin-left: 5%;	
 	transition: all 0.2s ease-in-out;
 	display: flex;
