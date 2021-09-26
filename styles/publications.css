@@ -1,1 +1,62 @@
 
+/* links */
+a {
+  color:white;
+  text-decoration:none;
+  position:relative;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #44A9CC;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+
+h1 {
+  font-weight: lighter;
+  font-family: 'Mulish', sans-serif;
+  color: #EB563A;
+  font-size: 42px;
+  line-height: 100%;
+  margin-left: 10%;
+  margin-top: 3%;
+  padding-right: 36%;
+  text-align: left;
+}
+
+h2 {
+  font-weight: lighter;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 22px;
+  line-height: 170%;
+  margin-left: 10%;
+  text-align: left;
+}
+
+
+h2 {
+  font-weight: lighter;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  line-height: 170%;
+  margin-left: 10%;
+  text-align: left;
+}
+
