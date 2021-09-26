@@ -40,7 +40,6 @@ background-image: url("/image/rwjf_adobespark.png");
 
 /* title */
 h1 {
-  font-weight: lighter;
   color: white;
   font-family: 'WindSong', cursive;
   font-size: 75px;  
@@ -52,6 +51,7 @@ h1 {
 
 /* shimmer */
 .shimmer {
+  font-weight: lighter;
   font-family: 'WindSong', cursive;
   color: white;
   font-size: 75px;  
@@ -82,7 +82,7 @@ h1 {
   animation-iteration-count: infinite;
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-color: #e6be8a;
+  background-color: #bebebe;
 }
 @-moz-keyframes shimmer {
   0% {
