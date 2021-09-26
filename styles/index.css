@@ -1,9 +1,3 @@
-/* mobile friendly */
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
-
 /* links */
 a {
   color:white;
