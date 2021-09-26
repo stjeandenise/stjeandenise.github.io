@@ -165,10 +165,7 @@ p {
   text-align: left;
 }
 
-/* socials */
-ul {
-  margin-left: 5%;
-}	
+/* socials */	
 .social-menu {
 	display: flex;
 	list-style-type: none;
