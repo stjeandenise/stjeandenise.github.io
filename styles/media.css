@@ -8,30 +8,30 @@ a {
 
 /* unvisited link */
 a:link {
-  color: #44A9CC;
+  color: black;
 }
 
 /* visited link */
 a:visited {
-  color: #44A9CC;
+  color: black;
 }
 
 /* mouse over link */
 a:hover {
-  color: #EB563A;
+  color: #44A9CC;
 }
 
 /* selected link */
 a:active {
-  color: #44A9CC;
+  color: black;
 }
 
 
 h1 {
   font-weight: lighter;
   font-family: 'Mulish', sans-serif;
-  color: goldenrod;
-  font-size: 32px;
+  color: #44A9CC;
+  font-size: 45px;
   line-height: 100%;
   margin-left: 10%;
   margin-top: 3%;
