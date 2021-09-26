@@ -179,7 +179,9 @@ p {
 	font-size: 25px;
 	margin: 0.5em;
 	margin-left: 15%;
-	transition: 1s ease;
+	transition: all 0.2s ease-in-out;
+	display: flex;
+	justify-content: center;
 }
 
 .social-menu i:before {
@@ -205,5 +207,5 @@ p {
 }
  
 .social-menu i:hover {
-	opacity: 50%;
+	opacity: 0.5;
 }
