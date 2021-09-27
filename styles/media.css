@@ -49,3 +49,16 @@ h2 {
   margin-right: 10%;
   text-align: left;
 }
+
+
+h3 {
+  font-weight: lighter;
+  color: black;
+  font-family: 'Mulish', sans-serif;
+  font-size: 22px;
+  line-height: 170%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+}
+
