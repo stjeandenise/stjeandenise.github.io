@@ -78,14 +78,11 @@ html, body {
 
 /* footer */
 html, footer {
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;          
 }
-
-
 
 /* title */
 h1 {
