@@ -92,9 +92,21 @@ h1 {
   line-height: 100%;
   margin-top: 5%;
   margin-left: 5%; 
-  text-align: left;
+  text-align: center;
 } 
 
+/* bio */
+p {
+  font-weight: lighter;
+  font-family: 'Mulish', sans-serif;
+  color: white;
+  font-size: 33px;
+  line-height: 100%;
+  margin-left: 5%;
+  margin-top: 3%;
+  padding-right: 36%;
+  text-align: center;
+}
 /* socials */	
 .social-menu {
 	display: flex;
