@@ -44,19 +44,19 @@ html, body {
 }
 
 .wrapper {
-  background-color: lightpink;
+  background-color: black;
   
-  max-width: 75%;
+  max-width: 80%;
   display: flex;
   flex-direction: row;
   height: 80%;
 }
 
 .left, .right {
-  background-color: lightblue;
+  background-color: black;
   
   margin: 5px;
-  max-width: 75%;
+  max-width: 80%;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@ html, body {
 }
 
 .body {
-  background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
+  background: black;
 }
 
 /* footer */
@@ -88,36 +88,12 @@ html, footer {
 h1 {
   color: white;
   font-family: 'WindSong', cursive;
-  font-size: 75px;  
+  font-size: 50px;  
   line-height: 100%;
   margin-top: 5%;
   margin-left: 5%; 
   text-align: left;
 } 
-
-/* body */
-p {
-  font-weight: lighter;
-  color: white;
-  font-family: 'Mulish', sans-serif;
-  font-size: 22px;
-  line-height: 115%;
-  margin-left: 5%;
-  text-align: left;
-}
-
-
-/* footer */
-h4 {
-  color: white;
-  font-family: 'Mulish', sans-serif;
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 100%;
-  margin-top: 3%;
-  margin-left: 5%;
-}
-
 
 /* socials */	
 .social-menu {
