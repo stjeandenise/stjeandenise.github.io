@@ -72,10 +72,19 @@ html, body {
   border-radius: 50%;
 }
 
-
 .body {
   background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
 }
+
+/* footer */
+html, footer {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 
 
 /* title */
