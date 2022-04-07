@@ -25,18 +25,51 @@ a:active {
   color: #44A9CC;
 }
 
-/* background */
-body {
-background-image: url("/image/rwjf_adobespark.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #000000;
-  background-position: right center;
-  -webkit-background-size: contain;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: contain;
+/* prof pic */
+.profile-picture {
+  border-radius: 50%;
 }
+
+
+/* background */
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  background-color: lightpink;
+  
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+}
+
+.left, .right {
+  background-color: lightblue;
+  
+  margin: 5px;
+  max-width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left {
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
+
 
 /* title */
 h1 {
@@ -48,75 +81,6 @@ h1 {
   margin-left: 5%; 
   text-align: left;
 } 
-
-/* shimmer */
-.shimmer {
-  font-weight: lighter;
-  font-family: 'WindSong', cursive;
-  color: white;
-  font-size: 75px;  
-  margin-top: 3%;
-  margin-bottom: 3%; 
-  margin-left: 5%; 
-  text-align: left;
-}
-.shimmer {
-  color: rgba(255,255,255,0.1);
-  background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
-  background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
-  background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
-  -webkit-background-size: 125px 100%;
-  -moz-background-size: 125px 100%;
-  background-size: 125px 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  -webkit-animation-name: shimmer;
-  -moz-animation-name: shimmer;
-  animation-name: shimmer;
-  -webkit-animation-duration: 6s;
-  -moz-animation-duration: 6s;
-  animation-duration: 6s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-color: #808080;
-}
-@-moz-keyframes shimmer {
-  0% {
-    background-position: top left;
-  }
-  100% {
-    background-position: top right;
-  }
-}
-@-webkit-keyframes shimmer {
-  0% {
-    background-position: top left;
-  }
-  100% {
-    background-position: top right;
-  }
-}
-@-o-keyframes shimmer {
-  0% {
-    background-position: top left;
-  }
-  100% {
-    background-position: top right;
-  }
-}
-@keyframes shimmer {
-  0% {
-    background-position: top left;
-  }
-  100% {
-    background-position: top right;
-  }
-}
-
 
 /* body */
 h2 {
