@@ -44,7 +44,7 @@ html, body {
 }
 
 .wrapper {
-  background-color: black;
+  background-color: lightpink;
   
   max-width: 80%;
   display: flex;
