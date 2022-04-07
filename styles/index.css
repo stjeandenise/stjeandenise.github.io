@@ -25,52 +25,66 @@ a:active {
   color: #44A9CC;
 }
 
-/* prof pic */
-.profile-pic {
-  border-radius: 50%;
-}
-
-
 /* background */
-html, body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-	
- font-family: 'Mulish', sans-serif;
+body {
+background-image: url("/image/rwjf_adobespark.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #000000;
+  background-position: right center;
+  -webkit-background-size: contain;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
 }
 
-.wrapper {
-  background-color: lightpink;
-  
-  max-width: 80%;
-  display: flex;
-  flex-direction: row;
-  height: 80%;
+/* title */
+h1 {
+  color: white;
+  font-family: 'WindSong', cursive;
+  font-size: 75px;  
+  line-height: 100%;
+  margin-top: 5%;
+  margin-left: 5%; 
+  text-align: left;
+} 
+
+/* body */
+h2 {
+  font-weight: lighter;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 22px;
+  line-height: 115%;
+  margin-left: 5%;
+  text-align: left;
 }
 
-.left, .right {
-  background-color: lightblue;
-  
-  margin: 5px;
-  max-width: 80%;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+/* bio */
+h3 {
+  font-weight: lighter;
+  font-family: 'Mulish', sans-serif;
+  color: white;
+  font-size: 33px;
+  line-height: 100%;
+  margin-left: 5%;
+  margin-top: 3%;
+  padding-right: 36%;
+  text-align: left;
 }
 
-.left {
-  align-items: center;
-  justify-content: center;
+/* footer */
+h4 {
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 100%;
+  margin-top: 3%;
+  margin-left: 5%;
 }
 
-.profile-pic {
-  border-radius: 50%;
-}
 
 /* socials */	
 .social-menu {
