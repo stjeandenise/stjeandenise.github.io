@@ -53,7 +53,7 @@ html, body {
 }
 
 .left, .right {
-  background-color: black;
+  background-color: lightblue;
   
   margin: 5px;
   max-width: 80%;
