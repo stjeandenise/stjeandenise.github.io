@@ -39,6 +39,8 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
+	
+ font-family: 'Mulish', sans-serif;
 }
 
 .wrapper {
@@ -83,7 +85,7 @@ h1 {
 } 
 
 /* body */
-h2 {
+p {
   font-weight: lighter;
   color: white;
   font-family: 'Mulish', sans-serif;
@@ -93,19 +95,6 @@ h2 {
   text-align: left;
 }
 
-
-/* bio */
-h3 {
-  font-weight: lighter;
-  font-family: 'Mulish', sans-serif;
-  color: white;
-  font-size: 33px;
-  line-height: 100%;
-  margin-left: 5%;
-  margin-top: 3%;
-  padding-right: 36%;
-  text-align: left;
-}
 
 /* footer */
 h4 {
