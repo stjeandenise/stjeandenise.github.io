@@ -8,22 +8,22 @@ a {
 
 /* unvisited link */
 a:link {
-  color: black;
+  color: #44A9CC;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: #44A9CC;
 }
 
 /* mouse over link */
 a:hover {
-  color: #44A9CC;
+  color: #EB563A;
 }
 
 /* selected link */
 a:active {
-  color: black;
+  color: #44A9CC;
 }
 
 
