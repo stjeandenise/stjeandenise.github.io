@@ -1,0 +1,38 @@
+/* links */
+a {
+  color:white;
+  text-decoration:none;
+  position:relative;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #44A9CC;
+}
+
+/* selected link */
+a:active {
+  color: #EB563A;
+}
+
+
+h1 {
+  font-weight: lighter;
+  color: black;
+  font-family: 'Mulish', sans-serif;
+  font-size: 22px;
+  line-height: 170%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+}
