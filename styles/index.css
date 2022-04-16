@@ -54,11 +54,9 @@ h2 {
   font-weight: lighter;
   font-family: 'Mulish', sans-serif;
   color: white;
-  font-size: 33px;
+  font-size: 22px;
   line-height: 100%;
   margin-left: 5%;
-  margin-top: 3%;
-  padding-right: 36%;
   text-align: left;
 }
 
@@ -67,9 +65,11 @@ h3 {
   font-weight: lighter;
   color: white;
   font-family: 'Mulish', sans-serif;
-  font-size: 22px;
+  font-size: 22x;
   line-height: 115%;
   margin-left: 5%;
+  margin-top: 3%;
+  padding-right: 36%;
   text-align: left;
 }
 
@@ -78,8 +78,8 @@ h4 {
   font-weight: lighter;
   color: white;
   font-family: 'Mulish', sans-serif;
-  font-size: 22px;
-  line-height: 170%;
+  font-size: 33px;
+  line-height: 100%;
   margin-left: 5%;
   margin-right: 10%;
   text-align: left;
