@@ -49,18 +49,6 @@ p {
   text-align: left;
 } 
 
-/* body */
-h2 {
-  font-weight: lighter;
-  color: white;
-  font-family: 'Mulish', sans-serif;
-  font-size: 22px;
-  line-height: 115%;
-  margin-left: 5%;
-  text-align: left;
-}
-
-
 /* bio */
 h1 {
   font-weight: lighter;
@@ -74,15 +62,28 @@ h1 {
   text-align: left;
 }
 
-/* footer */
-h4 {
+/* body */
+h2 {
+  font-weight: lighter;
   color: white;
   font-family: 'Mulish', sans-serif;
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 100%;
-  margin-top: 3%;
+  font-size: 22px;
+  line-height: 115%;
   margin-left: 5%;
+  text-align: left;
+}
+
+/* footer */
+h4 {
+  font-weight: lighter;
+  font-family: 'Mulish', sans-serif;
+  color: white;
+  font-size: 33px;
+  line-height: 100%;
+  margin-left: 5%;
+  margin-top: 3%;
+  padding-right: 36%;
+  text-align: left;
 }
 
 /* socials */	
