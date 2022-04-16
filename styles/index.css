@@ -39,7 +39,7 @@ background-image: url("/image/rwjf_adobespark.png");
 }
 
 /* title */
-h1 {
+p {
   color: white;
   font-family: 'WindSong', cursive;
   font-size: 75px;  
@@ -62,7 +62,7 @@ h2 {
 
 
 /* bio */
-h3 {
+h1 {
   font-weight: lighter;
   font-family: 'Mulish', sans-serif;
   color: white;
