@@ -1,3 +1,4 @@
+
 /* links */
 a {
   color:white;
@@ -26,35 +27,48 @@ a:active {
 }
 
 
+/* page title */
 h1 {
-  font-weight: lighter;
-  font-family: 'Mulish', sans-serif;
-  color: #EB563A;
-  font-size: 42px;
-  line-height: 100%;
-  margin-left: 10%;
-  margin-top: 3%;
-}
+  color: black;
+  font-family: 'WindSong', cursive;
+  font-size: 75px;  
+  line-height: 0.7em;
+  margin-top: 5%;
+  margin-left: 7%; 
+  text-align: left;
+} 
 
+/* header */
 h2 {
   font-weight: lighter;
   color: black;
   font-family: 'Mulish', sans-serif;
   font-size: 20px;
-  line-height: 160%;
-  margin-left: 10%;
+  line-height: 100%;
+  margin-left: 7%;
   margin-right: 10%;
   text-align: left;
 }
 
-
+/* section title */
 h3 {
+  font-weight: lighter;
+  font-family: 'Mulish', sans-serif;
+  color: #EB563A;
+  font-size: 42px;
+  line-height: 0.7em;
+  margin-left: 7%;
+  margin-top: 3%;
+}
+
+/* body */
+h4 {
   font-weight: lighter;
   color: black;
   font-family: 'Mulish', sans-serif;
   font-size: 22px;
   line-height: 170%;
-  margin-left: 10%;
+  margin-left: 7%;
   margin-right: 10%;
   text-align: left;
 }
