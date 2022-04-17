@@ -61,7 +61,7 @@ h2 {
 }
 
 h2 a:hover span {
-    color: #EB563A; 
+    color: #EB563A !important; 
 }
 
 /* body */
@@ -91,7 +91,7 @@ h4 {
 
 /* footer */
 footer {
-  margin: 0 auto;
+  margin-left: 1%;
 }
 
 /* socials */	
