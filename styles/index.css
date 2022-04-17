@@ -38,6 +38,11 @@ background-image: url("/image/rwjf_adobespark.png");
   background-size: contain;
 }
 
+/* footer */
+footer {
+  margin-left: 7%; 
+}
+
 /* title */
 h1 {
   color: white;
