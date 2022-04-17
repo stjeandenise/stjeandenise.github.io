@@ -25,6 +25,13 @@ a:active {
   color: #44A9CC;
 }
 
+a.white-link {
+    color: white;
+}
+a.white-link:hover {
+    color: #EB563A;
+}
+
 /* background */
 body {
 background-image: url("/image/rwjf_adobespark.png");
