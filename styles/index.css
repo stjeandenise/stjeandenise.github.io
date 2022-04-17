@@ -38,11 +38,6 @@ background-image: url("/image/rwjf_adobespark.png");
   background-size: contain;
 }
 
-/* footer */
-footer {
-  margin-left: 2%; 
-}
-
 /* title */
 h1 {
   color: white;
@@ -51,7 +46,7 @@ h1 {
   line-height: 0.7em;
   margin-top: 5%;
   margin-left: 7%; 
-  text-align: left;
+  text-align: center;
 } 
 
 /* header */
@@ -88,6 +83,12 @@ h4 {
   margin-left: 7%;
   margin-right: 10%;
   text-align: left;
+}
+
+/* footer */
+footer {
+  margin-left: 2%; 
+  text-align: center;
 }
 
 /* socials */	
