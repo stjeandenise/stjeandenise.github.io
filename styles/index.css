@@ -28,8 +28,22 @@ a:active {
 a.white-link {
     color: white;
 }
+
+/* trying to edit header link colors */
+a.white-link:link {
+  color: white;
+}
+
+a.white-link:visited {
+  color: white;
+}
+
 a.white-link:hover {
     color: #EB563A;
+}
+
+a:active {
+  color: white;
 }
 
 /* background */
