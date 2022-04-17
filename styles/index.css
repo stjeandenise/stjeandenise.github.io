@@ -60,6 +60,10 @@ h2 {
   text-align: left;
 }
 
+h2 a:hover span {
+    color: #EB563A; 
+}
+
 /* body */
 h3 {
   font-weight: lighter;
