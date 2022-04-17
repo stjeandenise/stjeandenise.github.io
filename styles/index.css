@@ -57,7 +57,7 @@ h2 {
   font-size: 20px;
   line-height: 100%;
   margin-left: 7%;
-  text-align: left;
+  text-align: center;
 }
 
 /* body */
@@ -87,7 +87,6 @@ h4 {
 
 /* footer */
 footer {
-  margin-left: 2%; 
   text-align: center;
 }
 
