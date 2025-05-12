@@ -1,9 +1,9 @@
 :root {
-  --bg-left: #d8cad9;   /* Mauve - left side */
-  --bg-right: #e8dee9;  /* Lighter lavender - right side */
+  --bg-left: #dce3ea;   /* clean blue-gray */
+  --bg-right: #f7f9fb;  /* light neutral */
   --text: #1a1a1a;
-  --accent: #2c4c6b;
-  --highlight: #6c8ca3;
+  --accent: #2c4c6b;    /* deep slate blue */
+  --highlight: #5d7fa3; /* for span/accent text */
   --white: #ffffff;
 }
 
