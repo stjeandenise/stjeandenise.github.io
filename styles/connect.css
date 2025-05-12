@@ -1,1 +1,267 @@
+:root {
+  --bg: #f7f9fb;
+  --text: #1a1a1a;
+  --accent: #2c4c6b;
+  --highlight: #5d7fa3;
+  --white: #ffffff;
+}
+
+/* === General Styles === */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #d14b3f; /* Deep coral */
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #a23228;
+}
+
+/* === Typography === */
+p {
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.75rem;
+  margin: 0;
+  font-weight: bold;
+  color: var(--accent);
+}
+
+/* === Page Layout === */
+.page-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.main-content {
+  padding: 0 20px;
+}
+
+/* === Header === */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px 20px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header-left {
+  flex-shrink: 0;
+}
+
+.logo {
+  font-family: 'WindSong', cursive;
+  font-size: 2.75rem;
+  color: var(--accent);
+  text-decoration: bold;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* === Nav === */
+.header-right {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.header-right a {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 1.05rem;
+}
+
+.header-right a:hover {
+  text-decoration: underline;
+}
+
+/* === Section === */
+.section {
+  margin-bottom: 80px;
+}
+
+/* === Two-Column Layout === */
+.two-column-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* Left: heading only */
+.column-left {
+  flex: 0 0 260px;
+  display: flex;
+  flex-direction: column; /*stack children vertically*/
+  align-items: flex-start;
+  padding-top: 0.25rem; /* align heading with text top */
+}
+
+/* Right: just text */
+.column-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* === About section photo === */
+.about-photo img {
+  width: 260px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50% / 40%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* === Text Blocks === */
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.about-text strong {
+  font-style: bold;
+  color: var(--highlight);
+}
+
+.about-text em {
+  font-style: italic;
+  font-weight: normal;
+  color: inherit;
+}
+
+.about-text p {
+  margin-bottom: 1.25rem;
+}
+
+/* === Conact form === */
+.contact-section {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.contact-intro {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-align: center;
+  color: var(--text);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  background-color: var(--white);
+  margin-top: 6px;
+}
+
+.contact-form button {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  padding: 12px 24px;
+  background: none;
+  border: 1px solid var(--text);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: var(--accent);
+  color: var(--white);
+  border-color: var(--accent);
+}
+
+/* === Footer === */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 40px 0;
+}
+
+.footer img {
+  height: 26px;
+  width: 26px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.footer img:hover {
+  filter: grayscale(0%);
+}
+
+.footer a {
+  display: inline-block;
+}
+
+/* === Responsive === */
+@media screen and (max-width: 768px) {
+  .header-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .two-column-layout {
+    flex-direction: column;
+  }
+
+  .column-left,
+  .column-right {
+    width: 100%;
+  }
+
+  .about-photo img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  .footer img {
+    margin: 0 8px;
+  }
+}
 
