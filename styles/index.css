@@ -1,7 +1,7 @@
 :root {
-  --bg: #f7f9fb;          /* light neutral background */
+  --bg: #f7f9fb;
   --text: #1a1a1a;
-  --accent: #2c4c6b;      /* deep slate blue */
+  --accent: #2c4c6b;
   --highlight: #5d7fa3;
   --white: #ffffff;
 }
@@ -36,11 +36,10 @@ h2 {
   font-family: 'Playfair Display', serif;
   font-size: 1.75rem;
   margin-bottom: 24px;
-  margin-top: 10px; 
+  margin-top: 0;
   font-weight: bold;
   color: var(--accent);
 }
-
 
 /* === Page Layout === */
 .page-wrapper {
@@ -81,110 +80,4 @@ h2 {
 }
 
 .header-right a {
-  font-family: 'Playfair Display', serif;
-  font-weight: 600;
-  color: var(--accent);
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.header-right a:hover {
-  text-decoration: underline;
-}
-
-/* === Section === */
-.section {
-  margin-bottom: 80px;
-}
-
-.section-layout {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-/* === About Layout === */
-.about-layout {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  align-items: flex-start;
-}
-
-.about-photo {
-  flex: 0 0 180px;
-}
-
-.about-photo img {
-  width: 260px; 
-  height: 300px;
-  object-fit: cover;
-  border-radius: 50% / 40%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-}
-
-.about-text {
-  flex: 1;
-  font-size: 1.1rem;
-  line-height: 1.8;
-}
-
-.about-text em {
-  font-style: normal;
-  color: var(--highlight);
-}
-
-.bio-text {
-  font-size: 1.1rem;
-  line-height: 1.8;
-}
-
-/* === Connect Section === */
-.icon-links {
-  margin-top: 20px;
-}
-
-/* === Footer === */
-.footer {
-  text-align: center;
-  padding: 40px 0;
-}
-
-.footer img {
-  height: 26px;
-  width: 26px;
-  margin: 0 12px;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
-}
-
-.footer img:hover {
-  filter: grayscale(0%);
-}
-
-.footer a {
-  display: inline-block;
-}
-
-/* === Responsive === */
-@media screen and (max-width: 768px) {
-  .header-right {
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-  }
-
-  .about-layout {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about-photo {
-    margin-bottom: 20px;
-  }
-
-  .footer img {
-    margin: 0 8px;
-  }
-}
+  font-family: 'Playfair Display', serif
