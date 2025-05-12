@@ -31,3 +31,158 @@ a:hover {
 .page-wrapper {
   max-width: 900px;
   margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.main-content {
+  padding: 0 20px;
+}
+
+/* === Header === */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px 20px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-left {
+  flex-shrink: 0;
+}
+
+.logo {
+  font-family: 'WindSong', cursive;
+  font-size: 2.5rem;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.header-right {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.header-right a {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.header-right a:hover {
+  text-decoration: underline;
+}
+
+/* === Section === */
+.section {
+  margin-bottom: 80px;
+}
+
+.section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.75rem;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+/* === About Layout === */
+.about-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.about-photo {
+  flex: 0 0 180px;
+}
+
+.about-photo img {
+  width: 180px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50% / 40%; /* Oval shape */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.about-text {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.about-text em {
+  font-style: normal;
+  color: var(--highlight);
+}
+
+.about-text strong {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.bio-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* === Connect Section === */
+.icon-links {
+  margin-top: 20px;
+}
+
+.icon-links img {
+  height: 24px;
+  margin-right: 20px;
+  filter: grayscale(100%);
+  transition: filter 0.2s ease;
+}
+
+.icon-links img:hover {
+  filter: grayscale(0%);
+}
+
+/* === Footer === */
+.footer {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.footer img {
+  height: 22px;
+  width: 22px;
+  margin: 0 12px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.footer img:hover {
+  filter: grayscale(0%);
+}
+
+/* === Responsive === */
+@media screen and (max-width: 768px) {
+  .header-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .about-layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-photo {
+    margin-bottom: 20px;
+  }
+
+  .footer img {
+    margin: 0 8px;
+  }
+}
