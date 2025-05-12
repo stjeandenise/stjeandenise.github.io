@@ -20,7 +20,8 @@ body {
 
 a {
   color: var(--accent);
-  text-decoration: underline;
+  text-decoration: none;
+  border: none;
 }
 
 a:hover {
@@ -160,6 +161,10 @@ h2 {
 
 .footer img:hover {
   filter: grayscale(0%);
+}
+
+.footer a {
+  display: inline-block;
 }
 
 /* === Responsive === */
