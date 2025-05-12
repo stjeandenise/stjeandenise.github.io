@@ -69,8 +69,9 @@ h2 {
 
 .logo {
   font-family: 'WindSong', cursive;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: var(--accent);
+  text-decoration: bold;
   white-space: nowrap;
   margin: 0;
   padding: 0;
