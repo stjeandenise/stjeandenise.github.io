@@ -19,14 +19,14 @@ body {
 }
 
 a {
-  color: #4a4aef; /* Modern, punchy blue-violet */
-  font-weight: 600;
+  color: #d14b3f; /* Deep coral */
+  font-weight: 500;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
-  color: #2a2aa8; /* Slightly deeper shade on hover */
+  color: #a23228;
 }
 
 /* === Typography === */
@@ -140,9 +140,15 @@ h2 {
   line-height: 1.8;
 }
 
-.about-text em {
-  font-style: normal;
+.about-text strong {
+  font-style: italic;
   color: var(--highlight);
+}
+
+.about-text em {
+  font-style: italic;
+  font-weight: normal;
+  color: inherit;
 }
 
 .about-text p {
