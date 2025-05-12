@@ -1,134 +1,121 @@
-/* === Base === */
+:root {
+  --bg: #f0f4f8;
+  --text: #1a1a1a;
+  --accent: #2c4c6b;
+  --highlight: #6c8ca3;
+}
+
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--bg);
+  color: var(--text);
   font-family: 'Inter', sans-serif;
-  background-color: #f2e6d9;
-  color: #1a1a1a;
   font-size: 1.1rem;
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
 }
 
 a {
-  color: inherit;
+  color: var(--accent);
   text-decoration: underline;
 }
 
 a:hover {
   text-decoration: none;
-  color: #b5482e;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* === Top Nav (Pulaski style) === */
+/* === Top Navigation === */
 .top-nav {
   display: flex;
   justify-content: space-between;
-  padding: 30px 40px;
+  align-items: center;
+  padding: 30px 60px;
   font-family: 'Playfair Display', serif;
   font-size: 1rem;
-}
-
-.nav-left {
-  font-weight: normal;
-}
-
-.nav-right a {
-  margin-left: 20px;
-  text-decoration: none;
-}
-
-.nav-right a:hover {
-  text-decoration: underline;
-}
-
-/* === Bio Section with Image (Sope-style) === */
-.bio-split {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 60px;
-  padding: 80px 40px;
-  max-width: 1200px;
-  margin: 0 auto;
   flex-wrap: wrap;
 }
 
-.bio-left {
-  flex: 1 1 55%;
+.nav-left {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
-.bio-left h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.4rem;
-  font-weight: 400;
-  margin-bottom: 1rem;
+.nav-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.bio-left p {
+.nav-right a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: var(--accent);
   font-family: 'Inter', sans-serif;
-  font-size: 1.1rem;
-  line-height: 1.8;
-  margin-bottom: 1rem;
 }
 
-.bio-left em {
-  font-style: italic;
-  color: #b5482e;
+.nav-right img {
+  height: 22px;
+  width: 22px;
+  margin-left: 16px;
+  vertical-align: middle;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
 }
 
-.bio-right {
-  flex: 1 1 35%;
-  max-width: 300px;
+.nav-right img:hover {
+  filter: grayscale(0%);
 }
 
-.bio-right img {
-  width: 100%;
-  border-radius: 12px;
-  object-fit: cover;
-}
-
-/* === Experience Section (2-column) === */
-.experience {
+/* === About Me Section === */
+.about-me {
   max-width: 1000px;
-  margin: 60px auto;
+  margin: 80px auto;
   padding: 0 40px;
 }
 
-.exp-item {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  margin-bottom: 40px;
-}
-
-.exp-left {
-  flex: 0 0 200px;
+.about-me h2 {
   font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 30px;
 }
 
-.exp-left h3 {
-  margin: 0 0 4px 0;
+.about-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-photo {
+  flex: 0 0 180px;
+}
+
+.about-photo img {
+  width: 180px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50% / 40%; /* Oval shape */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  flex: 1 1 500px;
+  font-family: 'Inter', sans-serif;
   font-size: 1.1rem;
+  line-height: 1.8;
 }
 
-.exp-left p {
-  margin: 0;
-  font-size: 0.95rem;
-  color: #555;
+.about-text em {
+  font-style: italic;
+  color: var(--highlight);
 }
 
-.exp-right {
-  flex: 1;
+.about-text strong {
+  color: var(--accent);
 }
 
-/* === Text Blocks (Research / Recognition) === */
+/* === Boards & Connect Sections === */
 .text-block {
   max-width: 800px;
   margin: 80px auto;
@@ -146,11 +133,22 @@ img {
   margin-bottom: 1.25rem;
 }
 
-/* === Footer === */
+/* === Footer with Logos === */
 .footer {
   text-align: center;
   padding: 60px 20px;
-  font-size: 0.95rem;
+}
+
+.footer img {
+  height: 22px;
+  width: 22px;
+  margin: 0 12px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.footer img:hover {
+  filter: grayscale(0%);
 }
 
 /* === Responsive === */
@@ -158,30 +156,19 @@ img {
   .top-nav {
     flex-direction: column;
     align-items: flex-start;
+    padding: 20px;
     gap: 10px;
   }
 
-  .bio-split {
+  .about-layout {
     flex-direction: column;
-    padding: 60px 20px;
+    align-items: center;
+    text-align: left;
+    padding: 40px 20px;
   }
 
-  .bio-right {
-    max-width: 100%;
-    margin-top: 30px;
-  }
-
-  .experience {
-    padding: 0 20px;
-  }
-
-  .exp-item {
-    flex-direction: column;
-  }
-
-  .exp-left {
-    flex: none;
-    margin-bottom: 10px;
+  .about-photo {
+    margin-bottom: 30px;
   }
 
   .text-block {
