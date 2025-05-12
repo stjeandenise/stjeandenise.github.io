@@ -19,14 +19,14 @@ body {
 }
 
 a {
-  color: #c99700;
+  color: #4a4aef; /* Modern, punchy blue-violet */
   font-weight: 600;
   text-decoration: none;
-  text-underline-offset: 2px;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  color: #8a6312;
+  color: #2a2aa8; /* Slightly deeper shade on hover */
 }
 
 /* === Typography === */
@@ -112,6 +112,7 @@ h2 {
 .column-left {
   flex: 0 0 260px;
   display: flex;
+  flex-direction: column; /*stack children vertically*/
   align-items: flex-start;
   padding-top: 0.25rem; /* align heading with text top */
 }
