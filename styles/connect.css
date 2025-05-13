@@ -208,6 +208,7 @@ h2 {
 .contact-form button {
   font-family: 'Playfair Display', serif;
   font-size: 1rem;
+  font-weight: bold;
   padding: 12px 24px;
   background: none;
   border: 1px solid var(--text);
