@@ -200,8 +200,8 @@ h2 {
 /* Limit resizing to vertical only */
 .contact-form textarea {
   resize: vertical;
-  max-width: 100%;
   width: 100%;
+  box-sizing: border-box; 
 }
 
 /* Submit button styling */
@@ -215,12 +215,22 @@ h2 {
   letter-spacing: 1px;
   cursor: pointer;
   transition: background 0.3s ease;
+  box-sizing: border-box; 
 }
 
 .contact-form button:hover {
   background-color: var(--accent);
   color: var(--white);
   border-color: var(--accent);
+}
+
+.label-top {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--accent);
 }
 
 /* Inline required label note */
