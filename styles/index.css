@@ -266,6 +266,39 @@ h2 {
   display: inline-block;
 }
 
+
+/* === Thank you === */
+.thank-you {
+  text-align: center;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 40px 20px;
+}
+
+.thank-you h2 {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+
+.thank-you p {
+  font-size: 1.1rem;
+  color: var(--text);
+  margin-bottom: 24px;
+}
+
+.back-link {
+  font-size: 1rem;
+  color: var(--highlight);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+
 /* === Responsive === */
 @media screen and (max-width: 768px) {
   .header-right {
