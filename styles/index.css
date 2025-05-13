@@ -185,7 +185,7 @@ h2 {
   color: var(--accent);
 }
 
-/* Input and Textarea styling */
+/* Input and textarea styling */
 .contact-form input,
 .contact-form textarea {
   font-family: 'Playfair Display', serif;
@@ -286,9 +286,13 @@ h2 {
 }
 
 .thank-you p {
-  font-size: 2.1rem;
+  font-size: 1.7rem;
   color: var(--text);
   margin-bottom: 24px;
+}
+
+.back-home-link {
+  font-size: 1.2rem;
 }
 
 /* === Responsive === */
