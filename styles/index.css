@@ -280,21 +280,21 @@ h2 {
 }
 
 .thank-you h2 {
-  font-size: 3.1rem;
+  font-size: 2.5rem;
   color: var(--accent);
   margin-bottom: 5px;
   line-height: 1.3;
 }
 
 .thank-you p {
-  font-size: 2.0rem;
+  font-size: 1.5rem;
   color: var(--text);
   margin-bottom: 24px;
   line-height: 1.3;
 }
 
 .back-home-link {
-  font-size: 1.5rem;
+  font-size: 1.0rem;
   font-weight: bold;
 }
 
