@@ -274,7 +274,7 @@ h2 {
   align-items: center;
   min-height: 100vh;
   text-align: center;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 40px 20px;
 }
@@ -286,13 +286,14 @@ h2 {
 }
 
 .thank-you p {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: var(--text);
   margin-bottom: 24px;
 }
 
 .back-home-link {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 /* === Responsive === */
