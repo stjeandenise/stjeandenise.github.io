@@ -279,6 +279,12 @@ h2 {
   padding: 40px 20px;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .thank-you h2 {
   font-size: 2.5rem;
   color: var(--accent);
@@ -301,14 +307,15 @@ h2 {
 /* === Responsive === */
 @media screen and (max-width: 768px) {
   .site-header {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 8px;
     padding: 20px 16px;
   }
 
   .logo {
-    font-size: 1.8rem;
+    font-size: 2rem;
     flex: 1 1 60%;
   }
 
@@ -319,6 +326,7 @@ h2 {
     justify-content: flex-end;
     flex: 1 1 40%;
     margin-top: 6px;
+    font-size: 0.9rem;
   }
   
   .two-column-layout {
