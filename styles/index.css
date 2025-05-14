@@ -300,14 +300,34 @@ h2 {
 
 /* === Responsive === */
 @media screen and (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header-left,
+  .header-right {
+    width: 100%;
+    justify-content: center;
+  }
+
   .header-right {
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    font-size: 2rem;
   }
 
   .two-column-layout {
     flex-direction: column;
+    gap: 32px;
   }
 
   .column-left,
@@ -316,11 +336,23 @@ h2 {
   }
 
   .about-photo img {
-    display: block;
+    max-width: 80%;
+    height: auto;
     margin: 0 auto 20px;
+    display: block;
   }
 
   .footer img {
     margin: 0 8px;
+  }
+
+  .contact-section,
+  .thank-you {
+    padding: 40px 16px;
+  }
+
+  .contact-intro,
+  .thank-you h2 {
+    font-size: 1.5rem;
   }
 }
