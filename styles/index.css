@@ -99,7 +99,8 @@ h2 {
 
 /* === Section === */
 .section {
-  margin-bottom: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* === Two-Column Layout === */
