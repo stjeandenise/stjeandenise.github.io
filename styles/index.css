@@ -328,32 +328,27 @@ html, body {
     font-size: 0.8rem;
   }
 
-  .about-photo img {
-    max-width: 80%;
-    height: auto;
-    margin: 0 auto 20px;
-    display: block;
+  .two-column-layout {
+    display: grid;
+    grid-template-areas:
+      "heading"
+      "image"
+      "text";
+    gap: 16px;
+  }
+
+ .about-photo {
+    grid-area: image;
+  }
+
+  .column-left {
+    grid-area: heading;
   }
   
   .column-right {
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    margin-top: 0;
+    grid-area: text;
+    padding: 0 20px;
   }
-  
-  .column-left h2 {
-    margin-bottom: 12px;
-  }
-  
-  .section:last-of-type {
-    margin-bottom: 0;
-  }
-
-  .about-text p {
-  max-width: 38ch;
- }
 
   .footer img {
     margin: 0 8px;
