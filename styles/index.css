@@ -328,14 +328,6 @@ html, body {
     font-size: 0.8rem;
   }
 
-  .section {
-    margin-bottom: 15px;
-  }
-
-  .section:last-of-type {
-    margin-bottom: 0;
-  }
-
   .about-photo img {
     max-width: 80%;
     height: auto;
@@ -363,6 +355,10 @@ html, body {
   .section:last-of-type {
     margin-bottom: 0;
   }
+
+  .about-text p {
+  max-width: 38ch;
+ }
 
   .footer img {
     margin: 0 8px;
