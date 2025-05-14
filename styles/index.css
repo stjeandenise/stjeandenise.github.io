@@ -306,16 +306,18 @@ html, body {
 
 /* === Responsive === */
 @media screen and (max-width: 768px) {
-   .site-header {
+  .site-header {
     display: flex;
     flex-direction: column-reverse;
     gap: 8px;
     padding: 20px 16px;
   }
+
   .logo {
     font-size: 2.2rem;
     flex: 1 1 60%;
   }
+
   .header-right {
     display: flex;
     flex-direction: row;
@@ -325,8 +327,8 @@ html, body {
     margin-top: 6px;
     font-size: 0.8rem;
   }
-  
-.section {
+
+  .section {
     margin-bottom: 24px;
   }
 
@@ -338,11 +340,25 @@ html, body {
     margin-bottom: 0;
   }
 
- .about-photo img {
+  .about-photo img {
     max-width: 80%;
     height: auto;
     margin: 0 auto 20px;
     display: block;
+  }
+
+  .two-column-layout {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+  }
+
+  .column-right {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
 
   .footer img {
