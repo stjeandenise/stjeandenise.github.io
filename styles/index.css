@@ -209,6 +209,7 @@ h2 {
   font-family: 'Playfair Display', serif;
   font-size: 1rem;
   font-weight: bold;
+  background-color: #ffffff;     
   padding: 12px 24px;
   background: none;
   border: 1px solid var(--text);
@@ -339,15 +340,17 @@ html, body {
 
  .about-photo {
     grid-area: image;
+    padding-left: 20px;
   }
 
   .column-left {
     grid-area: heading;
+    padding-left: 20px;
   }
   
   .column-right {
     grid-area: text;
-    padding: 0 20px;
+    padding-left: 20px;
   }
 
   .footer img {
@@ -374,5 +377,4 @@ html, body {
   background-color: var(--white) !important;
   opacity: 0.5;
 }
-
 }
