@@ -340,7 +340,6 @@ html, body {
 
  .about-photo {
     grid-area: image;
-    padding-left: 20px;
   }
 
   .column-left {
