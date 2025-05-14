@@ -99,7 +99,7 @@ h2 {
 
 /* === Section === */
 .section {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 /* === Two-Column Layout === */
@@ -338,11 +338,6 @@ html, body {
   .column-right {
     width: 100%;
   }
-
-  .section h2 {
-  margin-bottom: 0;
-  padding-bottom: 0;
- }
 
  .contact-section {
   padding-bottom: 20px;
