@@ -306,10 +306,31 @@ html, body {
 
 /* === Responsive === */
 @media screen and (max-width: 768px) {
-  .two-column-layout {
-    gap: 16px; /* smaller vertical gap */
+   .site-header {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 8px;
+    padding: 20px 16px;
   }
-
+  .logo {
+    font-size: 2.2rem;
+    flex: 1 1 60%;
+  }
+  .header-right {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: flex-end;
+    flex: 1 1 40%;
+    margin-top: 6px;
+    font-size: 0.8rem;
+  }
+  
+  .two-column-layout {
+    flex-direction: column;
+    gap: 0; /* eliminate vertical gap between left + right */
+  }
+  
   .column-left,
   .column-right {
     padding-top: 0;
