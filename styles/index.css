@@ -326,23 +326,16 @@ html, body {
     font-size: 0.8rem;
   }
   
-  .two-column-layout {
-    flex-direction: column;
-    gap: 0; /* eliminate vertical gap between left + right */
-  }
-  
-  .column-left,
-  .column-right {
-    padding-top: 0;
-    margin-top: 0;
+.section {
+    margin-bottom: 24px;
   }
 
-  .section h2 {
-    margin-bottom: 8px;
+  .section:last-of-type {
+    margin-bottom: 0;
   }
 
-  .about-text p {
-    margin-top: 0;
+  .column-left h2 {
+    margin-bottom: 0;
   }
 
  .about-photo img {
