@@ -185,7 +185,7 @@ h2 {
   color: var(--accent);
 }
 
-/* Input and textarea styling */
+/* Input and text area styling */
 .contact-form input,
 .contact-form textarea {
   font-family: 'Playfair Display', serif;
@@ -211,7 +211,6 @@ h2 {
   font-weight: bold;
   background-color: #ffffff;     
   padding: 12px 24px;
-  background: none;
   border: 1px solid var(--text);
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -273,7 +272,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100dvh;
   padding: 0 20px; 
   text-align: center;
   max-width: 700px;
