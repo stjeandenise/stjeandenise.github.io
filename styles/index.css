@@ -299,32 +299,28 @@ h2 {
 }
 
 /* === Responsive === */
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .site-header {
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px 16px;
   }
-    
-   .header-left,
-   .header-right {
-    width: 100%;
-    justify-content: center;
-   }
+
+  .logo {
+    font-size: 1.8rem;
+    flex: 1 1 60%;
+  }
 
   .header-right {
     display: flex;
-    gap: 16px;
     flex-direction: row;
+    gap: 16px;
     justify-content: flex-end;
-    flex-wrap: wrap;
+    flex: 1 1 40%;
+    margin-top: 6px;
   }
   
-  .logo {
-    font-size: 1.6rem; /* scaled down from desktop */
-  }
-
   .two-column-layout {
     flex-direction: column;
     gap: 32px;
@@ -336,7 +332,8 @@ h2 {
   }
 
   .section h2 {
-  margin-bottom: 12px;
+  margin-bottom: 0;
+  padding-bottom: 0;
  }
 
  .contact-section {
@@ -348,15 +345,10 @@ h2 {
     height: auto;
     margin: 0 auto 20px;
     display: block;
- }
+  }
 
   .footer img {
     margin: 0 8px;
-  }
-
-  .contact-section,
-  .thank-you {
-    padding: 40px 16px;
   }
 
   .contact-intro,
