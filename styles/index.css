@@ -98,9 +98,21 @@ h2 {
 }
 
 /* === Section === */
-.section {
-  margin-bottom: 0;
-  padding-bottom: 0;
+.section:last-of-type {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.section:last-of-type .column-right,
+.section:last-of-type .about-text,
+.section:last-of-type .about-text p {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.section:last-of-type > div {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 /* === Two-Column Layout === */
