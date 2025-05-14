@@ -329,7 +329,7 @@ html, body {
   }
 
   .section {
-    margin-bottom: 24px;
+    margin-bottom: 15px;
   }
 
   .section:last-of-type {
@@ -349,7 +349,7 @@ html, body {
 
   .two-column-layout {
     flex-direction: column;
-    gap: 16px;
+    gap: 1px;
     padding: 0;
   }
 
