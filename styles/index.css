@@ -299,30 +299,30 @@ h2 {
 }
 
 /* === Responsive === */
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
   .site-header {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    gap: 12px;
-    padding: 20px;
-    text-align: center;
+    padding: 20px 16px;
   }
-
-  .header-left,
-  .header-right {
+    
+   .header-left,
+   .header-right {
     width: 100%;
     justify-content: center;
-  }
+   }
 
   .header-right {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
     gap: 16px;
+    flex-direction: row;
+    justify-content: flex-end;
     flex-wrap: wrap;
   }
-
+  
   .logo {
-    font-size: 2rem;
+    font-size: 1.6rem; /* scaled down from desktop */
   }
 
   .two-column-layout {
@@ -335,12 +335,20 @@ h2 {
     width: 100%;
   }
 
-  .about-photo img {
+  .section h2 {
+  margin-bottom: 12px;
+ }
+
+ .contact-section {
+  padding-bottom: 20px;
+ }
+
+ .about-photo img {
     max-width: 80%;
     height: auto;
     margin: 0 auto 20px;
     display: block;
-  }
+ }
 
   .footer img {
     margin: 0 8px;
@@ -355,4 +363,17 @@ h2 {
   .thank-you h2 {
     font-size: 1.5rem;
   }
+
+  .contact-form button {
+  color: var(--text) !important;
+  background-color: var(--white) !important;
+  opacity: 1 !important;
+}
+
+ .contact-form button:disabled {
+  color: var(--text) !important;
+  background-color: var(--white) !important;
+  opacity: 0.5;
+}
+
 }
